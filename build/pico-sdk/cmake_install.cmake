@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/gabri/.pico-sdk/sdk/2.1.0
+# Install script for directory: C:/Users/guipe/.pico-sdk/sdk/2.1.0
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,21 +34,21 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/Users/gabri/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-objdump.exe")
+  set(CMAKE_OBJDUMP "C:/Users/guipe/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-objdump.exe")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/Embarcatech/Repositorio - teclado/Controle_GPIO_Teclado_Matricial_Subgrupo_3/build/pico-sdk/tools/cmake_install.cmake")
+  include("C:/Users/guipe/Controle_GPIO_Teclado_Matricial_Subgrupo_3/build/pico-sdk/tools/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/Embarcatech/Repositorio - teclado/Controle_GPIO_Teclado_Matricial_Subgrupo_3/build/pico-sdk/src/cmake_install.cmake")
+  include("C:/Users/guipe/Controle_GPIO_Teclado_Matricial_Subgrupo_3/build/pico-sdk/src/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/Embarcatech/Repositorio - teclado/Controle_GPIO_Teclado_Matricial_Subgrupo_3/build/pico-sdk/docs/cmake_install.cmake")
+  include("C:/Users/guipe/Controle_GPIO_Teclado_Matricial_Subgrupo_3/build/pico-sdk/docs/cmake_install.cmake")
 endif()
 

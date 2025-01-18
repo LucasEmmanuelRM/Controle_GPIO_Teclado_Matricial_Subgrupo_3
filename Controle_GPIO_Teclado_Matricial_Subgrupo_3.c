@@ -169,5 +169,8 @@ void acionar_LED_azul(){
 
 
 void acionar_LED_vermelho(){
+    gpio_put(LED_R, true);
+    sleep_ms(1000);   
+    gpio_put(LED_R, false); 
 
 }
