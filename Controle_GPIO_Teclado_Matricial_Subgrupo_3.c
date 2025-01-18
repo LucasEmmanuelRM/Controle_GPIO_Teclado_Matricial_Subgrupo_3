@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include "pico/stdlib.h"
-
 // Definição dos pinos do buzzer e dos LEDs
-#define buzzer 10
+#define pino_buzzer 10
 #define LED_G 11
 #define LED_B 12
 #define LED_R 13
@@ -34,10 +33,10 @@ void acionar_LED_verde();
 void acionar_LED_azul();
 void acionar_LED_vermelho();
 
+
 int main()
 {
     printf("Controle de GPIO por um teclado matricial - Grupo 4 Subgrupo 3\n");
-
     stdio_init_all();
     inicializar_pinos();
 
@@ -110,9 +109,9 @@ void inicializar_pinos(){
     }
 
     // Inicializa o buzzer
-    gpio_init(buzzer);
-    gpio_set_dir(buzzer, GPIO_OUT);
-    gpio_put(buzzer, 0);
+    gpio_init(pino_buzzer);
+    gpio_set_dir(pino_buzzer, GPIO_OUT);
+    gpio_put(pino_buzzer, 0);
 
     // Inicializa o LED verde
     gpio_init(LED_G);
@@ -132,15 +131,32 @@ void inicializar_pinos(){
 }
 
 
-char ler_teclado_matricial(){
+char ler_teclado_matricial() {
+    for (int i = 0; i < row; i++) {
+        gpio_put(rowPin[i], 1);  // Ativa a linha atual
 
+        for (int j = 0; j < column; j++) {
+            if (gpio_get(columnPin[j]) == 1) {  // Se o botão for pressionado
+                while (gpio_get(columnPin[j]) == 1);  // Aguarda até a tecla ser liberada
+                gpio_put(rowPin[i], 0);  // Desativa a linha
+                return TecladoMatricial[i][j];  // Retorna o caractere pressionado
+            }
+        }
+
+        gpio_put(rowPin[i], 0);  // Desativa a linha após a verificação
+    }
+
+    return '\0';  // Se nenhuma tecla for pressionada, retorna um caractere nulo
 }
 
 
-void tocar_buzzer(){
+
+void tocar_buzzer() {
+        gpio_put(pino_buzzer, true);
+        sleep_ms(1000);
+        gpio_put(pino_buzzer, false);
 
 }
-
 
 void acionar_LED_verde(){
 
