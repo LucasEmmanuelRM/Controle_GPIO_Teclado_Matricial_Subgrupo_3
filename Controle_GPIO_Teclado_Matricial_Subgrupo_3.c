@@ -169,5 +169,7 @@ void acionar_LED_azul(){
 
 
 void acionar_LED_vermelho(){
-
+    static bool estado = false; 
+    estado = !estado;  
+    gpio_put(LED_R, estado); 
 }
