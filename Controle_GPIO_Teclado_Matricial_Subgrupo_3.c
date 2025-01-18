@@ -28,7 +28,7 @@ const char TecladoMatricial[row][column] = {
 // Protótipo de funções a serem utilizadas
 void inicializar_pinos();
 char ler_teclado_matricial();
-bool tocar_buzzer();
+void tocar_buzzer();
 void acionar_LED_verde();
 void acionar_LED_azul();
 void acionar_LED_vermelho();
@@ -37,8 +37,6 @@ void acionar_LED_vermelho();
 int main()
 {
     printf("Controle de GPIO por um teclado matricial - Grupo 4 Subgrupo 3\n");
-    
-    bool estado_buzzer=false;
     stdio_init_all();
     inicializar_pinos();
 
@@ -84,7 +82,7 @@ int main()
                 printf("Todos os LEDs acionados\n");
                 break;
             case '*':
-                estado_buzzer=tocar_buzzer(estado_buzzer);
+                tocar_buzzer();
                 printf("Buzzer acionado\n");
                 break;
             default:
@@ -153,22 +151,12 @@ char ler_teclado_matricial() {
 
 
 
-bool tocar_buzzer(bool val) {
-    bool estado_atual;
-    // Inicializa o pino do buzzer
-    if (val) {
-        // desliga o buzzer
-        gpio_put(pino_buzzer, false);
-        estado_atual = false;
-    } else {
-        // liga o buzzer
+void tocar_buzzer() {
         gpio_put(pino_buzzer, true);
-        estado_atual = true;
-    }
+        sleep_ms(1000);
+        gpio_put(pino_buzzer, false);
 
-    return estado_atual;
 }
-
 
 void acionar_LED_verde(){
 
