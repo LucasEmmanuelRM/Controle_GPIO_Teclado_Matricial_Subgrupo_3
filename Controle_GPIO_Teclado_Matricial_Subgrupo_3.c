@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "pico/stdlib.h"
 // Definição dos pinos do buzzer e dos LEDs
-#define pino_buzzer 10
+#define buzzer 10
 #define LED_G 11
 #define LED_B 12
 #define LED_R 13
@@ -109,9 +109,9 @@ void inicializar_pinos(){
     }
 
     // Inicializa o buzzer
-    gpio_init(pino_buzzer);
-    gpio_set_dir(pino_buzzer, GPIO_OUT);
-    gpio_put(pino_buzzer, 0);
+    gpio_init(buzzer);
+    gpio_set_dir(buzzer, GPIO_OUT);
+    gpio_put(buzzer, 0);
 
     // Inicializa o LED verde
     gpio_init(LED_G);
@@ -152,9 +152,9 @@ char ler_teclado_matricial() {
 
 
 void tocar_buzzer() {
-        gpio_put(pino_buzzer, true);
+        gpio_put(buzzer, true);
         sleep_ms(1000);
-        gpio_put(pino_buzzer, false);
+        gpio_put(buzzer, false);
 
 }
 
