@@ -89,3 +89,5 @@
 19937	20957	7589341924685862	pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.obj	20a9bbb2680e8c77
 19638	21236	7589341920510442	CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Windows_10/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/common/tusb_fifo.c.obj	191710ede200c31c
 21237	22150	7589341936508564	Controle_GPIO_Teclado_Matricial_Subgrupo_3.elf	f8f07648f0001f42
+57	849	7589542444134442	CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/Controle_GPIO_Teclado_Matricial_Subgrupo_3.c.obj	3f2638ae678c186d
+851	3520	7589542452122086	Controle_GPIO_Teclado_Matricial_Subgrupo_3.elf	f8f07648f0001f42
