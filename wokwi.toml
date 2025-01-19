@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = "build/Controle_GPIO_Teclado_Matricial_Subgrupo_3.uf2"
+elf = "build/Controle_GPIO_Teclado_Matricial_Subgrupo_3.elf"
