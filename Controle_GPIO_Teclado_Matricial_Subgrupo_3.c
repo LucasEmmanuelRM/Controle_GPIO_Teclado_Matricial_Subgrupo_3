@@ -87,9 +87,10 @@ int main()
                 printf("Buzzer acionado\n");
                 break;
             default:
-                printf("Tecla sem atribuicao");
                 break;
         }
+
+        sleep_ms(100);
     }
 }
 
@@ -104,9 +105,9 @@ void inicializar_pinos(){
 
     // Inicializa os pinos GPIO das colunas
     for (int j = 0; j < column; j++) {
-        gpio_init(columnPin[j]);
-        gpio_set_dir(columnPin[j], GPIO_IN);
-        gpio_put(columnPin[j], 0); // Na inicialização, os pinos estarão em low
+    gpio_init(columnPin[j]);
+    gpio_set_dir(columnPin[j], GPIO_IN);
+    gpio_pull_up(columnPin[j]);  // Ativa pull-up
     }
 
     // Inicializa o buzzer
@@ -133,27 +134,33 @@ void inicializar_pinos(){
 
 char ler_teclado_matricial() {
     for (int i = 0; i < row; i++) {
-        gpio_put(rowPin[i], 1);  // Ativa a linha atual
+        gpio_put(rowPin[i], 0);  // Ativa a linha atual (nível baixo)
 
         for (int j = 0; j < column; j++) {
-            if (gpio_get(columnPin[j]) == 1) {  // Se o botão for pressionado
-                while (gpio_get(columnPin[j]) == 1);  // Aguarda até a tecla ser liberada
-                gpio_put(rowPin[i], 0);  // Desativa a linha
-                return TecladoMatricial[i][j];  // Retorna o caractere pressionado
+            // Verifica se o botão foi pressionado
+            if (!gpio_get(columnPin[j])) {  // Detecta nível baixo (tecla pressionada)
+                sleep_ms(50);  // Aguarda para debounce
+                if (!gpio_get(columnPin[j])) {  // Confirma a tecla pressionada
+                    while (!gpio_get(columnPin[j])) {
+                        // Aguarda a tecla ser solta
+                    }
+                    gpio_put(rowPin[i], 1);  // Desativa a linha
+                    return TecladoMatricial[i][j];  // Retorna o caractere pressionado
+                }
             }
         }
 
-        gpio_put(rowPin[i], 0);  // Desativa a linha após a verificação
+        gpio_put(rowPin[i], 1);  // Desativa a linha após a verificação
     }
 
-    return '\0';  // Se nenhuma tecla for pressionada, retorna um caractere nulo
+    return '\0';  // Retorna '\0' se nenhuma tecla for pressionada
 }
 
 
 void tocar_buzzer() {
-    gpio_put(buzzer, true);
+    gpio_put(buzzer, 1);
     sleep_ms(1000);
-    gpio_put(buzzer, false);
+    gpio_put(buzzer, 0);
 }
 
 void acionar_LED_verde(){
@@ -171,7 +178,7 @@ void acionar_LED_azul(){
 
 
 void acionar_LED_vermelho(){
-    gpio_put(LED_R, true);
+    gpio_put(LED_R, 1);
     sleep_ms(1000);   
-    gpio_put(LED_R, false); 
+    gpio_put(LED_R, 0); 
 }
