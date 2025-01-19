@@ -149,24 +149,28 @@ char ler_teclado_matricial() {
 }
 
 
-
 void tocar_buzzer() {
         gpio_put(buzzer, true);
         sleep_ms(1000);
         gpio_put(buzzer, false);
-
 }
 
 void acionar_LED_verde(){
-
+    gpio_put(LED_G, 1);
+    sleep_ms(1000);
+    gpio_put(LED_G, 0);
 }
 
 
 void acionar_LED_azul(){
-
+    gpio_put(LED_B, 1);
+    sleep_ms(1000);
+    gpio_put(LED_B, 0);
 }
 
 
 void acionar_LED_vermelho(){
-
+    gpio_put(LED_R, true);
+    sleep_ms(1000);   
+    gpio_put(LED_R, false); 
 }
