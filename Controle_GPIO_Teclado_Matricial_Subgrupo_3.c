@@ -1,4 +1,7 @@
 #include "pico/stdlib.h"
+#include "hardware/gpio.h"
+#include "hardware/pwm.h"
+
 // Definição dos pinos do buzzer e dos LEDs
 #define buzzer 10
 #define LED_G 11
@@ -153,6 +156,19 @@ void tocar_buzzer() {
         gpio_put(buzzer, true);
         sleep_ms(1000);
         gpio_put(buzzer, false);
+        gpio_set_function(pino_buzzer, GPIO_FUNC_PWM);
+    
+        uint slice_num = pwm_gpio_to_slice_num(pino_buzzer);
+        uint32_t clock_freq = 125000000;
+        uint16_t top = clock_freq / (2000 * 1) - 1;
+
+        pwm_set_wrap(slice_num, top);
+        pwm_set_chan_level(slice_num, PWM_CHAN_A, top / 2);
+        pwm_set_enabled(slice_num, true);
+
+        skeep ms(2000);
+
+        pwm_set_enabled(slice_num, false);
 }
 
 void acionar_LED_verde(){

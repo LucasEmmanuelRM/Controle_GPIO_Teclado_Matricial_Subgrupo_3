@@ -1,4 +1,4 @@
-// Padded and checksummed version of: C:/Users/guipe/Controle_GPIO_Teclado_Matricial_Subgrupo_3/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.bin
+// Padded and checksummed version of: C:/Users/guipe/Desktop/Controle_GPIO_Teclado_Matricial_Subgrupo_3/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.bin
 
 .cpu cortex-m0plus
 .thumb

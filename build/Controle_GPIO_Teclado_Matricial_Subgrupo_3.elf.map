@@ -173,11 +173,11 @@ Discarded input sections
  .text.tocar_buzzer
                 0x00000000       0x18 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/Controle_GPIO_Teclado_Matricial_Subgrupo_3.c.obj
  .text.acionar_LED_verde
-                0x00000000        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/Controle_GPIO_Teclado_Matricial_Subgrupo_3.c.obj
+                0x00000000       0x18 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/Controle_GPIO_Teclado_Matricial_Subgrupo_3.c.obj
  .text.acionar_LED_azul
-                0x00000000        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/Controle_GPIO_Teclado_Matricial_Subgrupo_3.c.obj
+                0x00000000       0x18 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/Controle_GPIO_Teclado_Matricial_Subgrupo_3.c.obj
  .text.acionar_LED_vermelho
-                0x00000000       0x28 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/Controle_GPIO_Teclado_Matricial_Subgrupo_3.c.obj
+                0x00000000       0x18 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/Controle_GPIO_Teclado_Matricial_Subgrupo_3.c.obj
  .rodata.TecladoMatricial
                 0x00000000       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/Controle_GPIO_Teclado_Matricial_Subgrupo_3.c.obj
  .text          0x00000000        0x0 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdlib/stdlib.c.obj
@@ -192,7 +192,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x13 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdlib/stdlib.c.obj
  .debug_line    0x00000000      0x141 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdlib/stdlib.c.obj
- .debug_str     0x00000000      0x1cb CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdlib/stdlib.c.obj
+ .debug_str     0x00000000      0x1d3 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdlib/stdlib.c.obj
  .comment       0x00000000       0x46 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdlib/stdlib.c.obj
  .debug_frame   0x00000000       0x28 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdlib/stdlib.c.obj
  .ARM.attributes
@@ -280,7 +280,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x13 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2040/pico_platform/platform.c.obj
  .debug_line    0x00000000      0x262 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2040/pico_platform/platform.c.obj
- .debug_str     0x00000000      0x20c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2040/pico_platform/platform.c.obj
+ .debug_str     0x00000000      0x214 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2040/pico_platform/platform.c.obj
  .comment       0x00000000       0x46 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2040/pico_platform/platform.c.obj
  .debug_frame   0x00000000       0x20 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2040/pico_platform/platform.c.obj
  .ARM.attributes
@@ -397,7 +397,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000      0x14c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_sync/sem.c.obj
  .debug_line    0x00000000      0xe7a CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_sync/sem.c.obj
- .debug_str     0x00000000      0x523 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_sync/sem.c.obj
+ .debug_str     0x00000000      0x52b CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_sync/sem.c.obj
  .comment       0x00000000       0x46 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_sync/sem.c.obj
  .debug_frame   0x00000000       0xf4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_sync/sem.c.obj
  .ARM.attributes
@@ -452,7 +452,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x2b CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_sync/critical_section.c.obj
  .debug_line    0x00000000      0x419 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_sync/critical_section.c.obj
- .debug_str     0x00000000      0x2de CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_sync/critical_section.c.obj
+ .debug_str     0x00000000      0x2e6 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_sync/critical_section.c.obj
  .comment       0x00000000       0x46 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_sync/critical_section.c.obj
  .debug_frame   0x00000000       0x50 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_sync/critical_section.c.obj
  .ARM.attributes
@@ -518,7 +518,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x61 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_time/timeout_helper.c.obj
  .debug_line    0x00000000      0x4fe CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_time/timeout_helper.c.obj
- .debug_str     0x00000000      0x3ff CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_time/timeout_helper.c.obj
+ .debug_str     0x00000000      0x407 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_time/timeout_helper.c.obj
  .comment       0x00000000       0x46 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_time/timeout_helper.c.obj
  .debug_frame   0x00000000       0x74 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_time/timeout_helper.c.obj
  .ARM.attributes
@@ -620,7 +620,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x64 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_util/datetime.c.obj
  .debug_line    0x00000000      0x5dd CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_util/datetime.c.obj
- .debug_str     0x00000000      0x3b3 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_util/datetime.c.obj
+ .debug_str     0x00000000      0x3bb CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_util/datetime.c.obj
  .comment       0x00000000       0x46 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_util/datetime.c.obj
  .debug_frame   0x00000000      0x124 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_util/datetime.c.obj
  .ARM.attributes
@@ -662,7 +662,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000      0x4a2 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_util/pheap.c.obj
  .debug_line    0x00000000     0x13ed CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_util/pheap.c.obj
- .debug_str     0x00000000      0x3fc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_util/pheap.c.obj
+ .debug_str     0x00000000      0x404 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_util/pheap.c.obj
  .comment       0x00000000       0x46 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_util/pheap.c.obj
  .debug_frame   0x00000000      0x178 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_util/pheap.c.obj
  .ARM.attributes
@@ -695,7 +695,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000      0x10f CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_util/queue.c.obj
  .debug_line    0x00000000      0xfef CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_util/queue.c.obj
- .debug_str     0x00000000      0x49c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_util/queue.c.obj
+ .debug_str     0x00000000      0x4a4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_util/queue.c.obj
  .comment       0x00000000       0x46 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_util/queue.c.obj
  .debug_frame   0x00000000       0xf0 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_util/queue.c.obj
  .ARM.attributes
@@ -769,7 +769,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x34 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_vreg/vreg.c.obj
  .debug_line    0x00000000      0x321 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_vreg/vreg.c.obj
- .debug_str     0x00000000      0x367 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_vreg/vreg.c.obj
+ .debug_str     0x00000000      0x36f CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_vreg/vreg.c.obj
  .comment       0x00000000       0x46 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_vreg/vreg.c.obj
  .debug_frame   0x00000000       0x30 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_vreg/vreg.c.obj
  .ARM.attributes
@@ -806,7 +806,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0xdf CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_watchdog/watchdog.c.obj
  .debug_line    0x00000000      0x7b4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_str     0x00000000      0x3a8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_str     0x00000000      0x3b0 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_watchdog/watchdog.c.obj
  .comment       0x00000000       0x46 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_watchdog/watchdog.c.obj
  .debug_frame   0x00000000       0xc0 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_watchdog/watchdog.c.obj
  .ARM.attributes
@@ -833,7 +833,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bootrom/bootrom_lock.c.obj
  .debug_line    0x00000000       0x6e CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bootrom/bootrom_lock.c.obj
- .debug_str     0x00000000      0x1a9 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bootrom/bootrom_lock.c.obj
+ .debug_str     0x00000000      0x1b1 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bootrom/bootrom_lock.c.obj
  .comment       0x00000000       0x46 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bootrom/bootrom_lock.c.obj
  .ARM.attributes
                 0x00000000       0x2c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bootrom/bootrom_lock.c.obj
@@ -845,7 +845,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_boot_lock/boot_lock.c.obj
  .debug_line    0x00000000       0x71 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_boot_lock/boot_lock.c.obj
- .debug_str     0x00000000      0x1ac CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_boot_lock/boot_lock.c.obj
+ .debug_str     0x00000000      0x1b4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_boot_lock/boot_lock.c.obj
  .comment       0x00000000       0x46 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_boot_lock/boot_lock.c.obj
  .ARM.attributes
                 0x00000000       0x2c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_boot_lock/boot_lock.c.obj
@@ -879,7 +879,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x4f CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_flash/flash.c.obj
  .debug_line    0x00000000      0x4a2 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_flash/flash.c.obj
- .debug_str     0x00000000      0x705 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_flash/flash.c.obj
+ .debug_str     0x00000000      0x70d CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_flash/flash.c.obj
  .comment       0x00000000       0x46 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_flash/flash.c.obj
  .debug_frame   0x00000000       0xa0 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_flash/flash.c.obj
  .ARM.attributes
@@ -906,12 +906,12 @@ Discarded input sections
                 0x00000000       0x14 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_divider/divider.S.obj
  .debug_line    0x00000000       0xa6 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_divider/divider.S.obj
  .debug_line_str
-                0x00000000       0x8d CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_divider/divider.S.obj
+                0x00000000       0x95 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_divider/divider.S.obj
  .debug_info    0x00000000       0x23 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_divider/divider.S.obj
  .debug_abbrev  0x00000000       0x12 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_divider/divider.S.obj
  .debug_aranges
                 0x00000000       0x40 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_divider/divider.S.obj
- .debug_str     0x00000000       0x9b CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_divider/divider.S.obj
+ .debug_str     0x00000000       0xa3 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_divider/divider.S.obj
  .debug_rnglists
                 0x00000000       0x2b CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_divider/divider.S.obj
  .ARM.attributes
@@ -941,7 +941,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x13 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj
  .debug_line    0x00000000      0x326 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj
- .debug_str     0x00000000      0x272 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj
+ .debug_str     0x00000000      0x27a CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj
  .comment       0x00000000       0x46 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj
  .debug_frame   0x00000000       0x20 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.obj
  .ARM.attributes
@@ -1105,7 +1105,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000      0x5f3 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_math.c.obj
  .debug_line    0x00000000     0x2d36 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_math.c.obj
- .debug_str     0x00000000      0x52e CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_math.c.obj
+ .debug_str     0x00000000      0x536 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_math.c.obj
  .comment       0x00000000       0x46 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_math.c.obj
  .debug_frame   0x00000000      0x44c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_math.c.obj
  .ARM.attributes
@@ -1271,7 +1271,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000      0x405 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_math.c.obj
  .debug_line    0x00000000     0x25a4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_math.c.obj
- .debug_str     0x00000000      0x541 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_math.c.obj
+ .debug_str     0x00000000      0x549 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_math.c.obj
  .comment       0x00000000       0x46 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_math.c.obj
  .debug_frame   0x00000000      0x390 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_math.c.obj
  .ARM.attributes
@@ -1303,7 +1303,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x49 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_malloc/malloc.c.obj
  .debug_line    0x00000000      0x2a4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_malloc/malloc.c.obj
- .debug_str     0x00000000      0x24b CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_malloc/malloc.c.obj
+ .debug_str     0x00000000      0x253 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_malloc/malloc.c.obj
  .comment       0x00000000       0x46 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_malloc/malloc.c.obj
  .debug_frame   0x00000000       0x74 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_malloc/malloc.c.obj
  .ARM.attributes
@@ -1409,7 +1409,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000      0x439 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_atomic/atomic.c.obj
  .debug_line    0x00000000     0x2e14 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_atomic/atomic.c.obj
- .debug_str     0x00000000      0x709 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_atomic/atomic.c.obj
+ .debug_str     0x00000000      0x711 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_atomic/atomic.c.obj
  .comment       0x00000000       0x46 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_atomic/atomic.c.obj
  .debug_frame   0x00000000      0x3dc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_atomic/atomic.c.obj
  .ARM.attributes
@@ -1432,7 +1432,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x31 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_cxx_options/new_delete.cpp.obj
  .debug_line    0x00000000      0x285 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_cxx_options/new_delete.cpp.obj
- .debug_str     0x00000000      0x392 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_cxx_options/new_delete.cpp.obj
+ .debug_str     0x00000000      0x39a CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_cxx_options/new_delete.cpp.obj
  .comment       0x00000000       0x46 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_cxx_options/new_delete.cpp.obj
  .debug_frame   0x00000000       0xa0 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_cxx_options/new_delete.cpp.obj
  .ARM.attributes
@@ -2332,7 +2332,7 @@ LOAD C:/Users/guipe/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/1
                 0x10000100                        __boot2_end__ = .
                 0x00000001                        ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
-.text           0x10000100     0x3dd0
+.text           0x10000100     0x3e20
                 0x10000100                        __logical_binary_start = .
  *(.vectors)
  .vectors       0x10000100       0xd4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_crt0/crt0.S.obj
@@ -2401,308 +2401,308 @@ LOAD C:/Users/guipe/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/1
                 0x100002d4       0x90 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/Controle_GPIO_Teclado_Matricial_Subgrupo_3.c.obj
                 0x100002d4                inicializar_pinos
  .text.startup.main
-                0x10000364      0x294 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/Controle_GPIO_Teclado_Matricial_Subgrupo_3.c.obj
+                0x10000364      0x2e4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/Controle_GPIO_Teclado_Matricial_Subgrupo_3.c.obj
                 0x10000364                main
  .text.gpio_set_function
-                0x100005f8       0x34 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x100005f8                gpio_set_function
+                0x10000648       0x34 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x10000648                gpio_set_function
  .text.gpio_init
-                0x1000062c       0x40 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x1000062c                gpio_init
- .text.panic    0x1000066c       0x30 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_platform_panic/panic.c.obj
-                0x1000066c                panic
+                0x1000067c       0x40 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x1000067c                gpio_init
+ .text.panic    0x100006bc       0x30 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_platform_panic/panic.c.obj
+                0x100006bc                panic
  .text.hw_claim_or_assert
-                0x1000069c       0x44 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/hardware_claim/claim.c.obj
-                0x1000069c                hw_claim_or_assert
+                0x100006ec       0x44 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/hardware_claim/claim.c.obj
+                0x100006ec                hw_claim_or_assert
  .text.next_striped_spin_lock_num
-                0x100006e0       0x18 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync/sync.c.obj
-                0x100006e0                next_striped_spin_lock_num
+                0x10000730       0x18 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync/sync.c.obj
+                0x10000730                next_striped_spin_lock_num
  .text.spin_locks_reset
-                0x100006f8       0x1c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
-                0x100006f8                spin_locks_reset
+                0x10000748       0x1c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
+                0x10000748                spin_locks_reset
  .text.runtime_init_per_core_irq_priorities
-                0x10000714       0x24 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000714                runtime_init_per_core_irq_priorities
+                0x10000764       0x24 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000764                runtime_init_per_core_irq_priorities
  .text.irq_set_enabled
-                0x10000738       0x24 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000738                irq_set_enabled
+                0x10000788       0x24 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000788                irq_set_enabled
  .text.irq_set_exclusive_handler
-                0x1000075c       0x54 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
-                0x1000075c                irq_set_exclusive_handler
+                0x100007ac       0x54 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
+                0x100007ac                irq_set_exclusive_handler
  .text.irq_remove_handler
-                0x100007b0      0x1d4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
-                0x100007b0                irq_remove_handler
+                0x10000800      0x1d4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000800                irq_remove_handler
  .text.irq_add_tail_to_free_list
-                0x10000984       0xb4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000984                irq_add_tail_to_free_list
+                0x100009d4       0xb4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
+                0x100009d4                irq_add_tail_to_free_list
  .text.lock_init
-                0x10000a38       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_sync/lock_core.c.obj
-                0x10000a38                lock_init
+                0x10000a88       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_sync/lock_core.c.obj
+                0x10000a88                lock_init
  .text.runtime_init_mutex
-                0x10000a48       0x50 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_sync/mutex.c.obj
-                0x10000a48                runtime_init_mutex
+                0x10000a98       0x50 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_sync/mutex.c.obj
+                0x10000a98                runtime_init_mutex
  .text.sleep_until_callback
-                0x10000a98       0x30 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
+                0x10000ae8       0x30 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
  .text.alarm_pool_irq_handler
-                0x10000ac8      0x2fc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
+                0x10000b18      0x2fc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
  .text.runtime_init_default_alarm_pool
-                0x10000dc4       0xdc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
-                0x10000dc4                runtime_init_default_alarm_pool
+                0x10000e14       0xdc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
+                0x10000e14                runtime_init_default_alarm_pool
  .text.alarm_pool_add_alarm_at_force_in_context
-                0x10000ea0       0xb0 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
-                0x10000ea0                alarm_pool_add_alarm_at_force_in_context
+                0x10000ef0       0xb0 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
+                0x10000ef0                alarm_pool_add_alarm_at_force_in_context
  .text.alarm_pool_cancel_alarm
-                0x10000f50       0x74 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
-                0x10000f50                alarm_pool_cancel_alarm
+                0x10000fa0       0x74 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
+                0x10000fa0                alarm_pool_cancel_alarm
  .text.sleep_until
-                0x10000fc4       0xd8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
-                0x10000fc4                sleep_until
+                0x10001014       0xd8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
+                0x10001014                sleep_until
  .text.sleep_ms
-                0x1000109c       0x38 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
-                0x1000109c                sleep_ms
+                0x100010ec       0x38 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
+                0x100010ec                sleep_ms
  .text.best_effort_wfe_or_timeout
-                0x100010d4       0xe0 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
-                0x100010d4                best_effort_wfe_or_timeout
+                0x10001124       0xe0 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
+                0x10001124                best_effort_wfe_or_timeout
  .text.timer_hardware_alarm_claim
-                0x100011b4       0x14 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer/timer.c.obj
-                0x100011b4                timer_hardware_alarm_claim
+                0x10001204       0x14 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001204                timer_hardware_alarm_claim
  .text.timer_time_us_64
-                0x100011c8       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer/timer.c.obj
-                0x100011c8                timer_time_us_64
+                0x10001218       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001218                timer_time_us_64
  .text.time_us_64
-                0x100011d8       0x14 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer/timer.c.obj
-                0x100011d8                time_us_64
+                0x10001228       0x14 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001228                time_us_64
  .text.busy_wait_us
-                0x100011ec       0x68 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer/timer.c.obj
-                0x100011ec                busy_wait_us
+                0x1000123c       0x68 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer/timer.c.obj
+                0x1000123c                busy_wait_us
  .text.busy_wait_until
-                0x10001254       0x20 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001254                busy_wait_until
+                0x100012a4       0x20 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer/timer.c.obj
+                0x100012a4                busy_wait_until
  .text.uart_init
-                0x10001274      0x120 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_uart/uart.c.obj
-                0x10001274                uart_init
+                0x100012c4      0x120 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_uart/uart.c.obj
+                0x100012c4                uart_init
  .text.clock_configure_int_divider
-                0x10001394       0xf4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x10001394                clock_configure_int_divider
+                0x100013e4       0xf4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x100013e4                clock_configure_int_divider
  .text.clock_configure_undivided
-                0x10001488       0xe8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x10001488                clock_configure_undivided
+                0x100014d8       0xe8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x100014d8                clock_configure_undivided
  .text.clock_get_hz
-                0x10001570        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x10001570                clock_get_hz
+                0x100015c0        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x100015c0                clock_get_hz
  .text.pll_init
-                0x1000157c       0xa4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_pll/pll.c.obj
-                0x1000157c                pll_init
+                0x100015cc       0xa4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_pll/pll.c.obj
+                0x100015cc                pll_init
  .text.tick_start
-                0x10001620       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_ticks/ticks.c.obj
-                0x10001620                tick_start
+                0x10001670       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_ticks/ticks.c.obj
+                0x10001670                tick_start
  .text.rom_func_lookup
-                0x10001630       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x10001630                rom_func_lookup
+                0x10001680       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10001680                rom_func_lookup
  .text.rom_data_lookup
-                0x10001640       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x10001640                rom_data_lookup
+                0x10001690       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10001690                rom_data_lookup
  .text.rom_funcs_lookup
-                0x10001650       0x44 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x10001650                rom_funcs_lookup
+                0x100016a0       0x44 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x100016a0                rom_funcs_lookup
  .text.xosc_init
-                0x10001694       0x28 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_xosc/xosc.c.obj
-                0x10001694                xosc_init
+                0x100016e4       0x28 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x100016e4                xosc_init
  .text.first_per_core_initializer
-                0x100016bc        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime/runtime.c.obj
+                0x1000170c        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime/runtime.c.obj
  .text.hard_assertion_failure
-                0x100016c0        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime/runtime.c.obj
-                0x100016c0                hard_assertion_failure
+                0x10001710        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10001710                hard_assertion_failure
  .text.runtime_run_initializers
-                0x100016cc       0x28 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime/runtime.c.obj
-                0x100016cc                runtime_run_initializers
+                0x1000171c       0x28 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime/runtime.c.obj
+                0x1000171c                runtime_run_initializers
  .text.runtime_init_early_resets
-                0x100016f4       0x2c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x100016f4                runtime_init_early_resets
+                0x10001744       0x2c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x10001744                runtime_init_early_resets
  .text.runtime_init_usb_power_down
-                0x10001720       0x1c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x10001720                runtime_init_usb_power_down
+                0x10001770       0x1c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x10001770                runtime_init_usb_power_down
  .text.runtime_init_post_clock_resets
-                0x1000173c       0x20 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x1000173c                runtime_init_post_clock_resets
+                0x1000178c       0x20 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x1000178c                runtime_init_post_clock_resets
  .text.runtime_init_rp2040_gpio_ie_disable
-                0x1000175c       0x14 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x1000175c                runtime_init_rp2040_gpio_ie_disable
+                0x100017ac       0x14 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x100017ac                runtime_init_rp2040_gpio_ie_disable
  .text.runtime_init_spin_locks_reset
-                0x10001770        0x8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x10001770                runtime_init_spin_locks_reset
+                0x100017c0        0x8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x100017c0                runtime_init_spin_locks_reset
  .text.runtime_init_install_ram_vector_table
-                0x10001778       0x1c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x10001778                runtime_init_install_ram_vector_table
+                0x100017c8       0x1c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x100017c8                runtime_init_install_ram_vector_table
  .text.runtime_init_clocks
-                0x10001794       0xd8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
-                0x10001794                runtime_init_clocks
- .text          0x1000186c       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x100017e4       0xd8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
+                0x100017e4                runtime_init_clocks
+ .text          0x100018bc       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .text.__wrap___aeabi_idiv
-                0x1000187c       0x50 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_divider/divider_hardware.S.obj
-                0x1000187c                __wrap___aeabi_idivmod
-                0x1000187c                divmod_s32s32
-                0x1000187c                div_s32s32
-                0x1000187c                __wrap___aeabi_idiv
-                0x10001884                divmod_s32s32_unsafe
-                0x100018b0                divmod_s32s32_savestate
+                0x100018cc       0x50 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_divider/divider_hardware.S.obj
+                0x100018cc                __wrap___aeabi_idivmod
+                0x100018cc                divmod_s32s32
+                0x100018cc                div_s32s32
+                0x100018cc                __wrap___aeabi_idiv
+                0x100018d4                divmod_s32s32_unsafe
+                0x10001900                divmod_s32s32_savestate
  .text.__wrap___aeabi_uidiv
-                0x100018cc       0x4c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_divider/divider_hardware.S.obj
-                0x100018cc                __wrap___aeabi_uidiv
-                0x100018cc                __wrap___aeabi_uidivmod
-                0x100018cc                div_u32u32
-                0x100018cc                divmod_u32u32
-                0x100018d4                divmod_u32u32_unsafe
-                0x100018fc                divmod_u32u32_savestate
+                0x1000191c       0x4c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_divider/divider_hardware.S.obj
+                0x1000191c                __wrap___aeabi_uidiv
+                0x1000191c                __wrap___aeabi_uidivmod
+                0x1000191c                div_u32u32
+                0x1000191c                divmod_u32u32
+                0x10001924                divmod_u32u32_unsafe
+                0x1000194c                divmod_u32u32_savestate
  .text.__wrap___aeabi_ldiv
-                0x10001918      0x424 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_divider/divider_hardware.S.obj
-                0x10001918                div_s64s64
-                0x10001918                divmod_s64s64
-                0x10001918                __wrap___aeabi_ldivmod
-                0x10001948                divmod_u64u64
-                0x10001948                div_u64u64
-                0x10001948                __wrap___aeabi_uldivmod
-                0x10001958                divmod_u64u64_savestate
-                0x10001978                divmod_s64s64_unsafe
-                0x10001a00                divmod_u64u64_unsafe
+                0x10001968      0x424 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_divider/divider_hardware.S.obj
+                0x10001968                div_s64s64
+                0x10001968                divmod_s64s64
+                0x10001968                __wrap___aeabi_ldivmod
+                0x10001998                divmod_u64u64
+                0x10001998                div_u64u64
+                0x10001998                __wrap___aeabi_uldivmod
+                0x100019a8                divmod_u64u64_savestate
+                0x100019c8                divmod_s64s64_unsafe
+                0x10001a50                divmod_u64u64_unsafe
  .text.__wrap___aeabi_darithmetic
-                0x10001d3c       0x60 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
-                0x10001d3c                __wrap___aeabi_drsub
-                0x10001d42                __wrap___aeabi_dsub
-                0x10001d4c                __wrap___aeabi_dadd
-                0x10001d56                __wrap___aeabi_ddiv
-                0x10001d8a                __wrap___aeabi_dmul
+                0x10001d8c       0x60 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+                0x10001d8c                __wrap___aeabi_drsub
+                0x10001d92                __wrap___aeabi_dsub
+                0x10001d9c                __wrap___aeabi_dadd
+                0x10001da6                __wrap___aeabi_ddiv
+                0x10001dda                __wrap___aeabi_dmul
  .text.__wrap___aeabi_cdcmple
-                0x10001d9c       0x6c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
-                0x10001d9c                __wrap___aeabi_cdrcmple
-                0x10001dac                __wrap___aeabi_cdcmpeq
-                0x10001dac                __wrap___aeabi_cdcmple
+                0x10001dec       0x6c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+                0x10001dec                __wrap___aeabi_cdrcmple
+                0x10001dfc                __wrap___aeabi_cdcmpeq
+                0x10001dfc                __wrap___aeabi_cdcmple
  .text.__wrap___aeabi_dcmplt
-                0x10001e08        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
-                0x10001e08                __wrap___aeabi_dcmplt
+                0x10001e58        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+                0x10001e58                __wrap___aeabi_dcmplt
  .text.__wrap___aeabi_dcmpge
-                0x10001e14       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
-                0x10001e14                __wrap___aeabi_dcmpge
+                0x10001e64       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+                0x10001e64                __wrap___aeabi_dcmpge
  .text.__wrap___aeabi_dcmpgt
-                0x10001e24        0xa CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
-                0x10001e24                __wrap___aeabi_dcmpgt
+                0x10001e74        0xa CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+                0x10001e74                __wrap___aeabi_dcmpgt
  .text.__wrap___aeabi_dcmpun
-                0x10001e2e       0x18 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
-                0x10001e2e                __wrap___aeabi_dcmpun
- *fill*         0x10001e46        0x2 
+                0x10001e7e       0x18 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+                0x10001e7e                __wrap___aeabi_dcmpun
+ *fill*         0x10001e96        0x2 
  .text.__wrap___aeabi_i2d
-                0x10001e48       0x38 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
-                0x10001e48                __wrap___aeabi_ui2d
-                0x10001e50                __wrap___aeabi_i2d
+                0x10001e98       0x38 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+                0x10001e98                __wrap___aeabi_ui2d
+                0x10001ea0                __wrap___aeabi_i2d
  .text.__wrap___aeabi_d2iz
-                0x10001e80       0x48 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
-                0x10001e80                double2int_z
-                0x10001e80                __wrap___aeabi_d2iz
+                0x10001ed0       0x48 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+                0x10001ed0                double2int_z
+                0x10001ed0                __wrap___aeabi_d2iz
  .text.__wrap___aeabi_d2uiz
-                0x10001ec8       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
-                0x10001ec8                __wrap___aeabi_d2uiz
-                0x10001ec8                double2uint
+                0x10001f18       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+                0x10001f18                __wrap___aeabi_d2uiz
+                0x10001f18                double2uint
  .text.missing_double_func_shim
-                0x10001ed8        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+                0x10001f28        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
  .text.__aeabi_double_init
-                0x10001ee4       0xa0 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
-                0x10001ee4                __aeabi_double_init
+                0x10001f34       0xa0 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+                0x10001f34                __aeabi_double_init
  .text.double_table_shim_on_use_helper
-                0x10001f84       0x2c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
-                0x10001f84                double_table_shim_on_use_helper
+                0x10001fd4       0x2c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+                0x10001fd4                double_table_shim_on_use_helper
  .text.__aeabi_lmul
-                0x10001fb0       0x32 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-                0x10001fb0                __wrap___aeabi_lmul
- *fill*         0x10001fe2        0x2 
+                0x10002000       0x32 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+                0x10002000                __wrap___aeabi_lmul
+ *fill*         0x10002032        0x2 
  .text.missing_float_func_shim
-                0x10001fe4        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+                0x10002034        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
  .text.__aeabi_float_init
-                0x10001ff0       0x5c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
-                0x10001ff0                __aeabi_float_init
- .text          0x1000204c       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x1000204c                __aeabi_mem_init
- .text.memcpy   0x1000205c        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x1000205c                __wrap_memcpy
-                0x1000205c                __wrap___aeabi_memcpy
+                0x10002040       0x5c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+                0x10002040                __aeabi_float_init
+ .text          0x1000209c       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x1000209c                __aeabi_mem_init
+ .text.memcpy   0x100020ac        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x100020ac                __wrap_memcpy
+                0x100020ac                __wrap___aeabi_memcpy
  .text._out_null
-                0x10002068        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf/printf.c.obj
+                0x100020b8        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf/printf.c.obj
  .text._out_rev
-                0x1000206c       0xac CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf/printf.c.obj
+                0x100020bc       0xac CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf/printf.c.obj
  .text._ntoa_format
-                0x10002118      0x250 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf/printf.c.obj
+                0x10002168      0x250 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf/printf.c.obj
  .text._out_char
-                0x10002368       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf/printf.c.obj
+                0x100023b8       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf/printf.c.obj
  .text._out_fct
-                0x10002378       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf/printf.c.obj
- .text._etoa    0x10002388      0x464 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf/printf.c.obj
- .text._ftoa    0x100027ec      0x3c0 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf/printf.c.obj
+                0x100023c8       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf/printf.c.obj
+ .text._etoa    0x100023d8      0x464 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf/printf.c.obj
+ .text._ftoa    0x1000283c      0x3c0 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf/printf.c.obj
  .text._vsnprintf
-                0x10002bac      0xbc8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf/printf.c.obj
+                0x10002bfc      0xbc8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf/printf.c.obj
  .text.vfctprintf
-                0x10003774       0x20 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf/printf.c.obj
-                0x10003774                vfctprintf
+                0x100037c4       0x20 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf/printf.c.obj
+                0x100037c4                vfctprintf
  .text.weak_raw_vprintf
-                0x10003794       0x30 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf/printf.c.obj
-                0x10003794                weak_raw_vprintf
- .text._exit    0x100037c4        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
-                0x100037c4                _exit
- .text.exit     0x100037c8        0x8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
-                0x100037c8                exit
+                0x100037e4       0x30 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf/printf.c.obj
+                0x100037e4                weak_raw_vprintf
+ .text._exit    0x10003814        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+                0x10003814                _exit
+ .text.exit     0x10003818        0x8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+                0x10003818                exit
  .text.runtime_init
-                0x100037d0       0x2c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
-                0x100037d0                runtime_init
+                0x10003820       0x2c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+                0x10003820                runtime_init
  .text.stdio_out_chars_no_crlf
-                0x100037fc       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
+                0x1000384c       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_out_chars_crlf
-                0x1000380c       0x94 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
+                0x1000385c       0x94 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_buffered_printer
-                0x100038a0       0x64 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100038f0       0x64 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_put_string
-                0x10003904      0x100 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10003904                stdio_put_string
+                0x10003954      0x100 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10003954                stdio_put_string
  .text.stdio_set_driver_enabled
-                0x10003a04       0x30 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10003a04                stdio_set_driver_enabled
+                0x10003a54       0x30 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10003a54                stdio_set_driver_enabled
  .text.stdio_init_all
-                0x10003a34        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10003a34                stdio_init_all
+                0x10003a84        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10003a84                stdio_init_all
  .text.__wrap_putchar
-                0x10003a40       0x98 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10003a40                __wrap_putchar
-                0x10003a40                stdio_putchar
+                0x10003a90       0x98 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10003a90                __wrap_putchar
+                0x10003a90                stdio_putchar
  .text.__wrap_puts
-                0x10003ad8       0x3c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10003ad8                stdio_puts
-                0x10003ad8                __wrap_puts
+                0x10003b28       0x3c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10003b28                stdio_puts
+                0x10003b28                __wrap_puts
  .text.__wrap_vprintf
-                0x10003b14       0xd4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10003b14                stdio_vprintf
-                0x10003b14                __wrap_vprintf
+                0x10003b64       0xd4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10003b64                stdio_vprintf
+                0x10003b64                __wrap_vprintf
  .text.__wrap_printf
-                0x10003be8       0x18 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10003be8                __wrap_printf
-                0x10003be8                stdio_printf
+                0x10003c38       0x18 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10003c38                __wrap_printf
+                0x10003c38                stdio_printf
  .text.stdio_uart_out_chars
-                0x10003c00       0x4c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10003c50       0x4c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .text.stdio_uart_in_chars
-                0x10003c4c       0x90 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x10003c4c                stdio_uart_in_chars
+                0x10003c9c       0x90 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10003c9c                stdio_uart_in_chars
  .text.on_uart_rx
-                0x10003cdc       0x28 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10003d2c       0x28 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .text.stdio_uart_out_flush
-                0x10003d04       0x14 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10003d54       0x14 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .text.stdio_uart_set_chars_available_callback
-                0x10003d18       0x84 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10003d68       0x84 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .text.stdio_uart_init
-                0x10003d9c       0x50 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x10003d9c                stdio_uart_init
- .text.strlen   0x10003dec       0x5c C:/Users/guipe/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp\libg.a(libc_a-strlen-stub.o)
-                0x10003dec                strlen
+                0x10003dec       0x50 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10003dec                stdio_uart_init
+ .text.strlen   0x10003e3c       0x5c C:/Users/guipe/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp\libg.a(libc_a-strlen-stub.o)
+                0x10003e3c                strlen
  *(.fini)
- .fini          0x10003e48        0x4 C:/Users/guipe/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/crti.o
-                0x10003e48                _fini
- *fill*         0x10003e4c        0x4 
- .fini.__stub   0x10003e50       0x40 linker stubs
+ .fini          0x10003e98        0x4 C:/Users/guipe/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/crti.o
+                0x10003e98                _fini
+ *fill*         0x10003e9c        0x4 
+ .fini.__stub   0x10003ea0       0x40 linker stubs
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -2713,183 +2713,183 @@ LOAD C:/Users/guipe/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/1
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
-                0x10003e90                        . = ALIGN (0x4)
-                0x10003e90                        PROVIDE (__preinit_array_start = .)
+                0x10003ee0                        . = ALIGN (0x4)
+                0x10003ee0                        PROVIDE (__preinit_array_start = .)
  *(SORT_BY_NAME(.preinit_array.*))
  .preinit_array.00100
-                0x10003e90        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x10003e90                __pre_init_runtime_init_early_resets
+                0x10003ee0        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x10003ee0                __pre_init_runtime_init_early_resets
  .preinit_array.00101
-                0x10003e94        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x10003e94                __pre_init_runtime_init_usb_power_down
+                0x10003ee4        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x10003ee4                __pre_init_runtime_init_usb_power_down
  .preinit_array.00275
-                0x10003e98        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x10003ee8        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .preinit_array.00300
-                0x10003e9c        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x10003eec        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
  .preinit_array.00350
-                0x10003ea0        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+                0x10003ef0        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
  .preinit_array.00350
-                0x10003ea4        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+                0x10003ef4        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
  .preinit_array.00500
-                0x10003ea8        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x10003ea8                __pre_init_runtime_init_clocks
+                0x10003ef8        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x10003ef8                __pre_init_runtime_init_clocks
  .preinit_array.00600
-                0x10003eac        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x10003eac                __pre_init_runtime_init_post_clock_resets
+                0x10003efc        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x10003efc                __pre_init_runtime_init_post_clock_resets
  .preinit_array.00700
-                0x10003eb0        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x10003eb0                __pre_init_runtime_init_rp2040_gpio_ie_disable
+                0x10003f00        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x10003f00                __pre_init_runtime_init_rp2040_gpio_ie_disable
  .preinit_array.01000
-                0x10003eb4        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x10003eb4                __pre_init_runtime_init_spin_locks_reset
+                0x10003f04        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x10003f04                __pre_init_runtime_init_spin_locks_reset
  .preinit_array.01100
-                0x10003eb8        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_sync/mutex.c.obj
-                0x10003eb8                __pre_init_runtime_init_mutex
+                0x10003f08        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_sync/mutex.c.obj
+                0x10003f08                __pre_init_runtime_init_mutex
  .preinit_array.10080
-                0x10003ebc        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x10003ebc                __pre_init_runtime_init_install_ram_vector_table
+                0x10003f0c        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x10003f0c                __pre_init_runtime_init_install_ram_vector_table
  .preinit_array.11000
-                0x10003ec0        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
-                0x10003ec0                __pre_init_runtime_init_default_alarm_pool
+                0x10003f10        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
+                0x10003f10                __pre_init_runtime_init_default_alarm_pool
  .preinit_array.YYYYY
-                0x10003ec4        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10003ec4                __pre_init_first_per_core_initializer
+                0x10003f14        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10003f14                __pre_init_first_per_core_initializer
  .preinit_array.ZZZZZ.01200
-                0x10003ec8        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
-                0x10003ec8                __pre_init_runtime_init_per_core_irq_priorities
+                0x10003f18        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
+                0x10003f18                __pre_init_runtime_init_per_core_irq_priorities
  *(.preinit_array)
-                0x10003ecc                        PROVIDE (__preinit_array_end = .)
-                0x10003ecc                        . = ALIGN (0x4)
-                0x10003ecc                        PROVIDE (__init_array_start = .)
+                0x10003f1c                        PROVIDE (__preinit_array_end = .)
+                0x10003f1c                        . = ALIGN (0x4)
+                0x10003f1c                        PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array)
- .init_array    0x10003ecc        0x4 C:/Users/guipe/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/crtbegin.o
-                0x10003ed0                        PROVIDE (__init_array_end = .)
-                0x10003ed0                        . = ALIGN (0x4)
+ .init_array    0x10003f1c        0x4 C:/Users/guipe/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x10003f20                        PROVIDE (__init_array_end = .)
+                0x10003f20                        . = ALIGN (0x4)
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array)
                 [!provide]                        PROVIDE (__fini_array_end = .)
  *(.eh_frame*)
- .eh_frame      0x10003ed0        0x0 C:/Users/guipe/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/crtbegin.o
-                0x10003ed0                        . = ALIGN (0x4)
+ .eh_frame      0x10003f20        0x0 C:/Users/guipe/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x10003f20                        . = ALIGN (0x4)
 
-.glue_7         0x10003ed0        0x0
- .glue_7        0x10003ed0        0x0 linker stubs
+.glue_7         0x10003f20        0x0
+ .glue_7        0x10003f20        0x0 linker stubs
 
-.glue_7t        0x10003ed0        0x0
- .glue_7t       0x10003ed0        0x0 linker stubs
+.glue_7t        0x10003f20        0x0
+ .glue_7t       0x10003f20        0x0 linker stubs
 
-.vfp11_veneer   0x10003ed0        0x0
- .vfp11_veneer  0x10003ed0        0x0 linker stubs
+.vfp11_veneer   0x10003f20        0x0
+ .vfp11_veneer  0x10003f20        0x0 linker stubs
 
-.v4_bx          0x10003ed0        0x0
- .v4_bx         0x10003ed0        0x0 linker stubs
+.v4_bx          0x10003f20        0x0
+ .v4_bx         0x10003f20        0x0 linker stubs
 
-.iplt           0x10003ed0        0x0
- .iplt          0x10003ed0        0x0 C:/Users/guipe/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/crtbegin.o
+.iplt           0x10003f20        0x0
+ .iplt          0x10003f20        0x0 C:/Users/guipe/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/crtbegin.o
 
-.rodata         0x10003ed0      0x610
+.rodata         0x10003f20      0x610
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .rodata*)
  .rodata.main.str1.4
-                0x10003ed0      0x318 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/Controle_GPIO_Teclado_Matricial_Subgrupo_3.c.obj
+                0x10003f20      0x318 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/Controle_GPIO_Teclado_Matricial_Subgrupo_3.c.obj
                                 0x215 (size before relaxing)
- .rodata.main   0x100041e8       0x6c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/Controle_GPIO_Teclado_Matricial_Subgrupo_3.c.obj
+ .rodata.main   0x10004238       0x6c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/Controle_GPIO_Teclado_Matricial_Subgrupo_3.c.obj
  .rodata.columnPin
-                0x10004254       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/Controle_GPIO_Teclado_Matricial_Subgrupo_3.c.obj
-                0x10004254                columnPin
+                0x100042a4       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/Controle_GPIO_Teclado_Matricial_Subgrupo_3.c.obj
+                0x100042a4                columnPin
  .rodata.rowPin
-                0x10004264       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/Controle_GPIO_Teclado_Matricial_Subgrupo_3.c.obj
-                0x10004264                rowPin
+                0x100042b4       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/Controle_GPIO_Teclado_Matricial_Subgrupo_3.c.obj
+                0x100042b4                rowPin
  .rodata.panic.str1.4
-                0x10004274       0x12 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_platform_panic/panic.c.obj
+                0x100042c4       0x12 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_platform_panic/panic.c.obj
  .rodata.timer_hardware_alarm_claim.str1.4
-                0x10004274       0x22 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer/timer.c.obj
+                0x100042c4       0x22 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer/timer.c.obj
  .rodata.hard_assertion_failure.str1.4
-                0x10004274        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime/runtime.c.obj
+                0x100042c4        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime/runtime.c.obj
  .rodata.missing_double_func_shim.str1.4
-                0x10004274       0x18 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+                0x100042c4       0x18 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
  .rodata.missing_float_func_shim.str1.4
-                0x10004274        0x1 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+                0x100042c4        0x1 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
  .rodata.str1.4
-                0x10004274       0x64 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x100042c4       0x64 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .rodata.__bi_84
-                0x10004274        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x100042c4        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .rodata.__bi_78
-                0x10004280        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x100042d0        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .rodata.__bi_60
-                0x1000428c        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x100042dc        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .rodata.__bi_54
-                0x10004298        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x100042e8        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .rodata.__bi_48
-                0x100042a4        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x100042f4        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .rodata.__bi_42
-                0x100042b0        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x10004300        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .rodata.__bi_34
-                0x100042bc        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x1000430c        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .rodata.__bi_26
-                0x100042c8        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x10004318        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .rodata._ftoa.str1.4
-                0x100042d4       0x15 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf/printf.c.obj
+                0x10004324       0x15 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf/printf.c.obj
  .rodata._vsnprintf
-                0x100042d4      0x19c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf/printf.c.obj
+                0x10004324      0x19c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf/printf.c.obj
  .rodata.pow10.0
-                0x10004470       0x50 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf/printf.c.obj
+                0x100044c0       0x50 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf/printf.c.obj
  .rodata.crlf_str.0
-                0x100044c0        0x2 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10004510        0x2 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
  .rodata.str1.4
-                0x100044c2       0x2c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- *fill*         0x100044c2        0x2 
+                0x10004512       0x2c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+ *fill*         0x10004512        0x2 
  .rodata.__bi_45.4
-                0x100044c4        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10004514        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .rodata.__bi_49.5
-                0x100044d0        0x8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10004520        0x8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .rodata.__bi_50.6
-                0x100044d8        0x8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x100044e0                        . = ALIGN (0x4)
+                0x10004528        0x8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10004530                        . = ALIGN (0x4)
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.flashdata*)))
-                0x100044e0                        . = ALIGN (0x4)
+                0x10004530                        . = ALIGN (0x4)
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x100044e0                        __exidx_start = .
+                0x10004530                        __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x100044e0                        __exidx_end = .
-                0x100044e0                        . = ALIGN (0x4)
-                0x100044e0                        __binary_info_start = .
+                0x10004530                        __exidx_end = .
+                0x10004530                        . = ALIGN (0x4)
+                0x10004530                        __binary_info_start = .
 
-.binary_info    0x100044e0       0x2c
+.binary_info    0x10004530       0x2c
  *(.binary_info.keep.*)
  .binary_info.keep.__bi_ptr84
-                0x100044e0        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x10004530        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .binary_info.keep.__bi_ptr78
-                0x100044e4        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x10004534        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .binary_info.keep.__bi_ptr60
-                0x100044e8        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x10004538        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .binary_info.keep.__bi_ptr54
-                0x100044ec        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x1000453c        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .binary_info.keep.__bi_ptr48
-                0x100044f0        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x10004540        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .binary_info.keep.__bi_ptr42
-                0x100044f4        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x10004544        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .binary_info.keep.__bi_ptr34
-                0x100044f8        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x10004548        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .binary_info.keep.__bi_ptr26
-                0x100044fc        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x1000454c        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  *(.binary_info.*)
  .binary_info.__bi_ptr50
-                0x10004500        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10004550        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .binary_info.__bi_ptr49
-                0x10004504        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10004554        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .binary_info.__bi_ptr45
-                0x10004508        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x1000450c                        __binary_info_end = .
+                0x10004558        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x1000455c                        __binary_info_end = .
 
-.rel.dyn        0x1000450c        0x0
- .rel.iplt      0x1000450c        0x0 C:/Users/guipe/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/crtbegin.o
-                0x1000450c                        . = ALIGN (0x4)
+.rel.dyn        0x1000455c        0x0
+ .rel.iplt      0x1000455c        0x0 C:/Users/guipe/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x1000455c                        . = ALIGN (0x4)
 
 .ram_vector_table
                 0x20000000       0xc0
@@ -2903,7 +2903,7 @@ LOAD C:/Users/guipe/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/1
                 0x200000c0                        . = ALIGN (0x4)
  *(.uninitialized_data*)
 
-.data           0x200000c0      0x180 load address 0x1000450c
+.data           0x200000c0      0x180 load address 0x1000455c
                 0x200000c0                        __data_start__ = .
  *(vtable)
  *(.time_critical*)
@@ -2956,23 +2956,23 @@ LOAD C:/Users/guipe/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/1
                 0x20000240                        . = ALIGN (0x4)
 
 .tm_clone_table
-                0x20000240        0x0 load address 0x1000468c
+                0x20000240        0x0 load address 0x100046dc
  .tm_clone_table
                 0x20000240        0x0 C:/Users/guipe/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/crtbegin.o
  .tm_clone_table
                 0x20000240        0x0 C:/Users/guipe/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/crtend.o
 
-.igot.plt       0x20000240        0x0 load address 0x1000468c
+.igot.plt       0x20000240        0x0 load address 0x100046dc
  .igot.plt      0x20000240        0x0 C:/Users/guipe/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/crtbegin.o
 
-.tdata          0x20000240        0x0 load address 0x1000468c
+.tdata          0x20000240        0x0 load address 0x100046dc
                 0x20000240                        . = ALIGN (0x4)
  *(.tdata .tdata.* .gnu.linkonce.td.*)
                 0x20000240                        __tdata_end = .
                 0x20000240                        PROVIDE (__data_end__ = .)
-                0x1000450c                        __etext = LOADADDR (.data)
+                0x1000455c                        __etext = LOADADDR (.data)
 
-.tbss           0x20000240        0x0 load address 0x1000468c
+.tbss           0x20000240        0x0 load address 0x100046dc
                 0x20000240                        . = ALIGN (0x4)
                 0x20000240                        __bss_start__ = .
                 0x20000240                        __tls_base = .
@@ -2980,7 +2980,7 @@ LOAD C:/Users/guipe/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/1
  *(.tcommon)
                 0x20000240                        __tls_end = .
 
-.bss            0x20000240      0x3fc load address 0x1000468c
+.bss            0x20000240      0x3fc load address 0x100046dc
                 0x20000240                        . = ALIGN (0x4)
                 0x20000240                        __tbss_end = .
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.bss*)))
@@ -3014,34 +3014,33 @@ LOAD C:/Users/guipe/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/1
                 0x20000630                uart_char_to_line_feed
  .bss.uart_instance
                 0x20000634        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .bss.estado.0  0x20000638        0x1 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/Controle_GPIO_Teclado_Matricial_Subgrupo_3.c.obj
  .bss.irq_handler_chain_free_slot_head
-                0x20000639        0x1 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
+                0x20000638        0x1 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
  *(COMMON)
                 0x2000063c                        . = ALIGN (0x4)
- *fill*         0x2000063a        0x2 
+ *fill*         0x20000639        0x3 
                 0x2000063c                        __bss_end__ = .
 
-.heap           0x2000063c      0x800 load address 0x1000468c
+.heap           0x2000063c      0x800 load address 0x100046dc
                 0x2000063c                        __end__ = .
                 0x2000063c                        end = __end__
  *(.heap*)
  .heap          0x2000063c      0x800 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_crt0/crt0.S.obj
                 0x20040000                        __HeapLimit = (ORIGIN (RAM) + LENGTH (RAM))
 
-.scratch_x      0x20040000        0x0 load address 0x1000468c
+.scratch_x      0x20040000        0x0 load address 0x100046dc
                 0x20040000                        __scratch_x_start__ = .
  *(.scratch_x.*)
                 0x20040000                        . = ALIGN (0x4)
                 0x20040000                        __scratch_x_end__ = .
-                0x1000468c                        __scratch_x_source__ = LOADADDR (.scratch_x)
+                0x100046dc                        __scratch_x_source__ = LOADADDR (.scratch_x)
 
-.scratch_y      0x20041000        0x0 load address 0x1000468c
+.scratch_y      0x20041000        0x0 load address 0x100046dc
                 0x20041000                        __scratch_y_start__ = .
  *(.scratch_y.*)
                 0x20041000                        . = ALIGN (0x4)
                 0x20041000                        __scratch_y_end__ = .
-                0x1000468c                        __scratch_y_source__ = LOADADDR (.scratch_y)
+                0x100046dc                        __scratch_y_source__ = LOADADDR (.scratch_y)
 
 .stack1_dummy
  *(.stack1*)
@@ -3050,9 +3049,9 @@ LOAD C:/Users/guipe/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/1
  *(.stack*)
  .stack         0x20041000      0x800 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_crt0/crt0.S.obj
 
-.flash_end      0x1000468c        0x0
+.flash_end      0x100046dc        0x0
  *(.embedded_end_block*)
-                0x1000468c                        PROVIDE (__flash_binary_end = .)
+                0x100046dc                        PROVIDE (__flash_binary_end = .)
                 0x20040000                        __StackLimit = (ORIGIN (RAM) + LENGTH (RAM))
                 0x20041000                        __StackOneTop = (ORIGIN (SCRATCH_X) + LENGTH (SCRATCH_X))
                 0x20042000                        __StackTop = (ORIGIN (SCRATCH_Y) + LENGTH (SCRATCH_Y))
@@ -3260,132 +3259,132 @@ LOAD linker stubs
  .comment       0x00000045       0x46 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
  .comment       0x00000045       0x46 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 
-.debug_info     0x00000000    0x1d5c0
- .debug_info    0x00000000     0x1676 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/Controle_GPIO_Teclado_Matricial_Subgrupo_3.c.obj
- .debug_info    0x00001676     0x2437 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_info    0x00003aad      0x1bf CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_platform_panic/panic.c.obj
- .debug_info    0x00003c6c      0x995 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/hardware_claim/claim.c.obj
- .debug_info    0x00004601      0x458 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync/sync.c.obj
- .debug_info    0x00004a59      0x245 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
- .debug_info    0x00004c9e     0x21a8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
- .debug_info    0x00006e46      0x15f CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_sync/lock_core.c.obj
- .debug_info    0x00006fa5     0x2803 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_sync/mutex.c.obj
- .debug_info    0x000097a8     0x485e CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
- .debug_info    0x0000e006     0x2b11 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer/timer.c.obj
- .debug_info    0x00010b17     0x195f CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_uart/uart.c.obj
- .debug_info    0x00012476     0x2935 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_info    0x00014dab      0x4e5 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_pll/pll.c.obj
- .debug_info    0x00015290      0x248 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_ticks/ticks.c.obj
- .debug_info    0x000154d8      0x633 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_info    0x00015b0b      0x1cc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_info    0x00015cd7      0x21a CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_info    0x00015ef1      0x795 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
- .debug_info    0x00016686      0x780 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
- .debug_info    0x00016e06       0x23 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_info    0x00016e29       0x23 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_divider/divider_hardware.S.obj
- .debug_info    0x00016e4c       0x23 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
- .debug_info    0x00016e6f      0x2d0 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
- .debug_info    0x0001713f       0x24 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
- .debug_info    0x00017163       0x24 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_info    0x00017187       0x23 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
- .debug_info    0x000171aa      0x2bc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
- .debug_info    0x00017466       0x23 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_info    0x00017489      0x2e2 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
- .debug_info    0x0001776b     0x211a CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf/printf.c.obj
- .debug_info    0x00019885       0x23 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_crt0/crt0.S.obj
- .debug_info    0x000198a8      0xb54 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
- .debug_info    0x0001a3fc     0x1cdd CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_info    0x0001c0d9     0x14e7 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+.debug_info     0x00000000    0x1e057
+ .debug_info    0x00000000     0x210d CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/Controle_GPIO_Teclado_Matricial_Subgrupo_3.c.obj
+ .debug_info    0x0000210d     0x2437 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_info    0x00004544      0x1bf CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_platform_panic/panic.c.obj
+ .debug_info    0x00004703      0x995 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/hardware_claim/claim.c.obj
+ .debug_info    0x00005098      0x458 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_info    0x000054f0      0x245 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
+ .debug_info    0x00005735     0x21a8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_info    0x000078dd      0x15f CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_sync/lock_core.c.obj
+ .debug_info    0x00007a3c     0x2803 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_sync/mutex.c.obj
+ .debug_info    0x0000a23f     0x485e CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
+ .debug_info    0x0000ea9d     0x2b11 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_info    0x000115ae     0x195f CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_info    0x00012f0d     0x2935 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_info    0x00015842      0x4e5 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_info    0x00015d27      0x248 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_ticks/ticks.c.obj
+ .debug_info    0x00015f6f      0x633 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_info    0x000165a2      0x1cc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_info    0x0001676e      0x21a CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_info    0x00016988      0x795 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+ .debug_info    0x0001711d      0x780 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
+ .debug_info    0x0001789d       0x23 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_info    0x000178c0       0x23 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_divider/divider_hardware.S.obj
+ .debug_info    0x000178e3       0x23 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+ .debug_info    0x00017906      0x2d0 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+ .debug_info    0x00017bd6       0x24 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+ .debug_info    0x00017bfa       0x24 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_info    0x00017c1e       0x23 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+ .debug_info    0x00017c41      0x2bc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+ .debug_info    0x00017efd       0x23 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_info    0x00017f20      0x2e2 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+ .debug_info    0x00018202     0x211a CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf/printf.c.obj
+ .debug_info    0x0001a31c       0x23 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_crt0/crt0.S.obj
+ .debug_info    0x0001a33f      0xb54 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+ .debug_info    0x0001ae93     0x1cdd CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_info    0x0001cb70     0x14e7 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 
-.debug_abbrev   0x00000000     0x53b0
- .debug_abbrev  0x00000000      0x37c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/Controle_GPIO_Teclado_Matricial_Subgrupo_3.c.obj
- .debug_abbrev  0x0000037c      0x4f9 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_abbrev  0x00000875      0x12b CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_platform_panic/panic.c.obj
- .debug_abbrev  0x000009a0      0x33b CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/hardware_claim/claim.c.obj
- .debug_abbrev  0x00000cdb      0x20d CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync/sync.c.obj
- .debug_abbrev  0x00000ee8      0x1bb CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
- .debug_abbrev  0x000010a3      0x5ff CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
- .debug_abbrev  0x000016a2       0xee CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_sync/lock_core.c.obj
- .debug_abbrev  0x00001790      0x48c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_sync/mutex.c.obj
- .debug_abbrev  0x00001c1c      0x67b CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
- .debug_abbrev  0x00002297      0x4f2 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer/timer.c.obj
- .debug_abbrev  0x00002789      0x365 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_uart/uart.c.obj
- .debug_abbrev  0x00002aee      0x4e2 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_abbrev  0x00002fd0      0x1d2 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_pll/pll.c.obj
- .debug_abbrev  0x000031a2      0x145 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_ticks/ticks.c.obj
- .debug_abbrev  0x000032e7      0x1d7 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_abbrev  0x000034be      0x11b CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_abbrev  0x000035d9      0x182 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_abbrev  0x0000375b      0x222 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
- .debug_abbrev  0x0000397d      0x294 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
- .debug_abbrev  0x00003c11       0x12 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_abbrev  0x00003c23       0x12 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_divider/divider_hardware.S.obj
- .debug_abbrev  0x00003c35       0x12 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
- .debug_abbrev  0x00003c47      0x1bb CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
- .debug_abbrev  0x00003e02       0x14 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
- .debug_abbrev  0x00003e16       0x14 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_abbrev  0x00003e2a       0x12 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
- .debug_abbrev  0x00003e3c      0x19e CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
- .debug_abbrev  0x00003fda       0x12 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_abbrev  0x00003fec       0xb8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
- .debug_abbrev  0x000040a4      0x525 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf/printf.c.obj
- .debug_abbrev  0x000045c9       0x12 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_crt0/crt0.S.obj
- .debug_abbrev  0x000045db      0x352 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
- .debug_abbrev  0x0000492d      0x5eb CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_abbrev  0x00004f18      0x498 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+.debug_abbrev   0x00000000     0x5361
+ .debug_abbrev  0x00000000      0x32d CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/Controle_GPIO_Teclado_Matricial_Subgrupo_3.c.obj
+ .debug_abbrev  0x0000032d      0x4f9 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_abbrev  0x00000826      0x12b CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_platform_panic/panic.c.obj
+ .debug_abbrev  0x00000951      0x33b CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/hardware_claim/claim.c.obj
+ .debug_abbrev  0x00000c8c      0x20d CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_abbrev  0x00000e99      0x1bb CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
+ .debug_abbrev  0x00001054      0x5ff CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_abbrev  0x00001653       0xee CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_sync/lock_core.c.obj
+ .debug_abbrev  0x00001741      0x48c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_sync/mutex.c.obj
+ .debug_abbrev  0x00001bcd      0x67b CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
+ .debug_abbrev  0x00002248      0x4f2 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_abbrev  0x0000273a      0x365 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_abbrev  0x00002a9f      0x4e2 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_abbrev  0x00002f81      0x1d2 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_abbrev  0x00003153      0x145 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_ticks/ticks.c.obj
+ .debug_abbrev  0x00003298      0x1d7 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_abbrev  0x0000346f      0x11b CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_abbrev  0x0000358a      0x182 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_abbrev  0x0000370c      0x222 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+ .debug_abbrev  0x0000392e      0x294 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
+ .debug_abbrev  0x00003bc2       0x12 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_abbrev  0x00003bd4       0x12 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_divider/divider_hardware.S.obj
+ .debug_abbrev  0x00003be6       0x12 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+ .debug_abbrev  0x00003bf8      0x1bb CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+ .debug_abbrev  0x00003db3       0x14 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+ .debug_abbrev  0x00003dc7       0x14 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_abbrev  0x00003ddb       0x12 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+ .debug_abbrev  0x00003ded      0x19e CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+ .debug_abbrev  0x00003f8b       0x12 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_abbrev  0x00003f9d       0xb8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+ .debug_abbrev  0x00004055      0x525 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf/printf.c.obj
+ .debug_abbrev  0x0000457a       0x12 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_crt0/crt0.S.obj
+ .debug_abbrev  0x0000458c      0x352 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+ .debug_abbrev  0x000048de      0x5eb CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_abbrev  0x00004ec9      0x498 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 
 .debug_loclists
-                0x00000000    0x10f0b
+                0x00000000    0x112c5
  .debug_loclists
-                0x00000000      0xdc1 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/Controle_GPIO_Teclado_Matricial_Subgrupo_3.c.obj
+                0x00000000     0x117b CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/Controle_GPIO_Teclado_Matricial_Subgrupo_3.c.obj
  .debug_loclists
-                0x00000dc1     0x1a03 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x0000117b     0x1a03 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_gpio/gpio.c.obj
  .debug_loclists
-                0x000027c4      0x36e CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/hardware_claim/claim.c.obj
+                0x00002b7e      0x36e CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/hardware_claim/claim.c.obj
  .debug_loclists
-                0x00002b32       0xf1 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync/sync.c.obj
+                0x00002eec       0xf1 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync/sync.c.obj
  .debug_loclists
-                0x00002c23       0x7d CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
+                0x00002fdd       0x7d CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
  .debug_loclists
-                0x00002ca0     0x116f CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000305a     0x116f CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
  .debug_loclists
-                0x00003e0f       0x41 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_sync/lock_core.c.obj
+                0x000041c9       0x41 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_sync/lock_core.c.obj
  .debug_loclists
-                0x00003e50      0xafa CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_sync/mutex.c.obj
+                0x0000420a      0xafa CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_sync/mutex.c.obj
  .debug_loclists
-                0x0000494a     0x24bd CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
+                0x00004d04     0x24bd CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
  .debug_loclists
-                0x00006e07     0x1a12 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer/timer.c.obj
+                0x000071c1     0x1a12 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer/timer.c.obj
  .debug_loclists
-                0x00008819      0xc90 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_uart/uart.c.obj
+                0x00008bd3      0xc90 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_uart/uart.c.obj
  .debug_loclists
-                0x000094a9     0x28a5 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x00009863     0x28a5 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_clocks/clocks.c.obj
  .debug_loclists
-                0x0000bd4e      0x1e0 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_pll/pll.c.obj
+                0x0000c108      0x1e0 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_pll/pll.c.obj
  .debug_loclists
-                0x0000bf2e       0x47 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_ticks/ticks.c.obj
+                0x0000c2e8       0x47 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_ticks/ticks.c.obj
  .debug_loclists
-                0x0000bf75      0x38a CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x0000c32f      0x38a CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bootrom/bootrom.c.obj
  .debug_loclists
-                0x0000c2ff       0x48 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x0000c6b9       0x48 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_xosc/xosc.c.obj
  .debug_loclists
-                0x0000c347       0x7e CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000c701       0x7e CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime/runtime.c.obj
  .debug_loclists
-                0x0000c3c5       0xba CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x0000c77f       0xba CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
  .debug_loclists
-                0x0000c47f       0x74 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
+                0x0000c839       0x74 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
  .debug_loclists
-                0x0000c4f3       0x35 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+                0x0000c8ad       0x35 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
  .debug_loclists
-                0x0000c528       0x4e CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+                0x0000c8e2       0x4e CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
  .debug_loclists
-                0x0000c576     0x2f65 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf/printf.c.obj
+                0x0000c930     0x2f65 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf/printf.c.obj
  .debug_loclists
-                0x0000f4db      0x431 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+                0x0000f895      0x431 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
  .debug_loclists
-                0x0000f90c      0xeab CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000fcc6      0xeab CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
  .debug_loclists
-                0x000107b7      0x754 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x00010b71      0x754 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 
 .debug_aranges  0x00000000      0xe68
  .debug_aranges
@@ -3460,194 +3459,194 @@ LOAD linker stubs
                 0x00000de8       0x80 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 
 .debug_rnglists
-                0x00000000     0x3005
+                0x00000000     0x30ff
  .debug_rnglists
-                0x00000000      0x463 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/Controle_GPIO_Teclado_Matricial_Subgrupo_3.c.obj
+                0x00000000      0x55d CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/Controle_GPIO_Teclado_Matricial_Subgrupo_3.c.obj
  .debug_rnglists
-                0x00000463      0x5c7 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x0000055d      0x5c7 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_gpio/gpio.c.obj
  .debug_rnglists
-                0x00000a2a       0x19 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_platform_panic/panic.c.obj
+                0x00000b24       0x19 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_platform_panic/panic.c.obj
  .debug_rnglists
-                0x00000a43       0xc5 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/hardware_claim/claim.c.obj
+                0x00000b3d       0xc5 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/hardware_claim/claim.c.obj
  .debug_rnglists
-                0x00000b08       0x67 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync/sync.c.obj
+                0x00000c02       0x67 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync/sync.c.obj
  .debug_rnglists
-                0x00000b6f       0x3d CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
+                0x00000c69       0x3d CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
  .debug_rnglists
-                0x00000bac      0x355 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
+                0x00000ca6      0x355 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
  .debug_rnglists
-                0x00000f01       0x1f CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_sync/lock_core.c.obj
+                0x00000ffb       0x1f CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_sync/lock_core.c.obj
  .debug_rnglists
-                0x00000f20      0x32c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_sync/mutex.c.obj
+                0x0000101a      0x32c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_sync/mutex.c.obj
  .debug_rnglists
-                0x0000124c      0x77c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
+                0x00001346      0x77c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
  .debug_rnglists
-                0x000019c8      0x2c6 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer/timer.c.obj
+                0x00001ac2      0x2c6 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer/timer.c.obj
  .debug_rnglists
-                0x00001c8e      0x259 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_uart/uart.c.obj
+                0x00001d88      0x259 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_uart/uart.c.obj
  .debug_rnglists
-                0x00001ee7      0x4ad CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x00001fe1      0x4ad CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_clocks/clocks.c.obj
  .debug_rnglists
-                0x00002394       0x5c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_pll/pll.c.obj
+                0x0000248e       0x5c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_pll/pll.c.obj
  .debug_rnglists
-                0x000023f0       0x2b CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_ticks/ticks.c.obj
+                0x000024ea       0x2b CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_ticks/ticks.c.obj
  .debug_rnglists
-                0x0000241b      0x10c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x00002515      0x10c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bootrom/bootrom.c.obj
  .debug_rnglists
-                0x00002527       0x2b CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x00002621       0x2b CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_xosc/xosc.c.obj
  .debug_rnglists
-                0x00002552       0x3d CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000264c       0x3d CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime/runtime.c.obj
  .debug_rnglists
-                0x0000258f       0x49 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x00002689       0x49 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
  .debug_rnglists
-                0x000025d8       0x20 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
+                0x000026d2       0x20 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
  .debug_rnglists
-                0x000025f8       0x43 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x000026f2       0x43 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .debug_rnglists
-                0x0000263b       0x2c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_divider/divider_hardware.S.obj
+                0x00002735       0x2c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_divider/divider_hardware.S.obj
  .debug_rnglists
-                0x00002667       0xec CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+                0x00002761       0xec CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
  .debug_rnglists
-                0x00002753       0x1a CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+                0x0000284d       0x1a CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
  .debug_rnglists
-                0x0000276d       0xdf CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+                0x00002867       0xdf CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
  .debug_rnglists
-                0x0000284c       0x19 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+                0x00002946       0x19 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
  .debug_rnglists
-                0x00002865       0x25 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x0000295f       0x25 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
  .debug_rnglists
-                0x0000288a      0x27c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf/printf.c.obj
+                0x00002984      0x27c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf/printf.c.obj
  .debug_rnglists
-                0x00002b06       0x1b CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_crt0/crt0.S.obj
+                0x00002c00       0x1b CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_crt0/crt0.S.obj
  .debug_rnglists
-                0x00002b21       0x7f CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+                0x00002c1b       0x7f CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
  .debug_rnglists
-                0x00002ba0      0x297 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
+                0x00002c9a      0x297 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
  .debug_rnglists
-                0x00002e37      0x1ce CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x00002f31      0x1ce CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 
-.debug_line     0x00000000    0x17760
- .debug_line    0x00000000     0x179b CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/Controle_GPIO_Teclado_Matricial_Subgrupo_3.c.obj
- .debug_line    0x0000179b     0x1c97 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_line    0x00003432      0x28a CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_platform_panic/panic.c.obj
- .debug_line    0x000036bc      0x930 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/hardware_claim/claim.c.obj
- .debug_line    0x00003fec      0x4d2 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync/sync.c.obj
- .debug_line    0x000044be      0x3ba CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
- .debug_line    0x00004878     0x1716 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
- .debug_line    0x00005f8e      0x2e5 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_sync/lock_core.c.obj
- .debug_line    0x00006273     0x1b28 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_sync/mutex.c.obj
- .debug_line    0x00007d9b     0x3136 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
- .debug_line    0x0000aed1     0x1d34 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer/timer.c.obj
- .debug_line    0x0000cc05      0xfa9 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_uart/uart.c.obj
- .debug_line    0x0000dbae     0x1e10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_line    0x0000f9be      0x500 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_pll/pll.c.obj
- .debug_line    0x0000febe      0x344 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_ticks/ticks.c.obj
- .debug_line    0x00010202      0x47b CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_line    0x0001067d      0x35d CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_line    0x000109da      0x319 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_line    0x00010cf3      0x542 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
- .debug_line    0x00011235      0x567 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
- .debug_line    0x0001179c      0x107 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_line    0x000118a3      0x2a9 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_divider/divider_hardware.S.obj
- .debug_line    0x00011b4c      0x3f3 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
- .debug_line    0x00011f3f      0x568 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
- .debug_line    0x000124a7       0x5d CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
- .debug_line    0x00012504       0x61 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_line    0x00012565      0x3a8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
- .debug_line    0x0001290d      0x424 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
- .debug_line    0x00012d31       0x94 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_line    0x00012dc5      0x1f5 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
- .debug_line    0x00012fba     0x1b8f CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf/printf.c.obj
- .debug_line    0x00014b49       0xa5 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_crt0/crt0.S.obj
- .debug_line    0x00014bee      0x870 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
- .debug_line    0x0001545e     0x14df CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_line    0x0001693d      0xe23 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+.debug_line     0x00000000    0x17bf0
+ .debug_line    0x00000000     0x1c2b CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/Controle_GPIO_Teclado_Matricial_Subgrupo_3.c.obj
+ .debug_line    0x00001c2b     0x1c97 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_line    0x000038c2      0x28a CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_platform_panic/panic.c.obj
+ .debug_line    0x00003b4c      0x930 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/hardware_claim/claim.c.obj
+ .debug_line    0x0000447c      0x4d2 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_line    0x0000494e      0x3ba CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
+ .debug_line    0x00004d08     0x1716 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_line    0x0000641e      0x2e5 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_sync/lock_core.c.obj
+ .debug_line    0x00006703     0x1b28 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_sync/mutex.c.obj
+ .debug_line    0x0000822b     0x3136 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
+ .debug_line    0x0000b361     0x1d34 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_line    0x0000d095      0xfa9 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_line    0x0000e03e     0x1e10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_line    0x0000fe4e      0x500 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_line    0x0001034e      0x344 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_ticks/ticks.c.obj
+ .debug_line    0x00010692      0x47b CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_line    0x00010b0d      0x35d CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_line    0x00010e6a      0x319 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_line    0x00011183      0x542 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+ .debug_line    0x000116c5      0x567 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
+ .debug_line    0x00011c2c      0x107 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_line    0x00011d33      0x2a9 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_divider/divider_hardware.S.obj
+ .debug_line    0x00011fdc      0x3f3 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+ .debug_line    0x000123cf      0x568 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+ .debug_line    0x00012937       0x5d CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+ .debug_line    0x00012994       0x61 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_line    0x000129f5      0x3a8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+ .debug_line    0x00012d9d      0x424 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+ .debug_line    0x000131c1       0x94 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_line    0x00013255      0x1f5 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+ .debug_line    0x0001344a     0x1b8f CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf/printf.c.obj
+ .debug_line    0x00014fd9       0xa5 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_crt0/crt0.S.obj
+ .debug_line    0x0001507e      0x870 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+ .debug_line    0x000158ee     0x14df CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_line    0x00016dcd      0xe23 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 
-.debug_str      0x00000000     0x4a45
- .debug_str     0x00000000     0x4a45 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/Controle_GPIO_Teclado_Matricial_Subgrupo_3.c.obj
-                                0x8e6 (size before relaxing)
- .debug_str     0x00004a45      0xc88 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_str     0x00004a45      0x213 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_platform_panic/panic.c.obj
- .debug_str     0x00004a45      0x396 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/hardware_claim/claim.c.obj
- .debug_str     0x00004a45      0x33f CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync/sync.c.obj
- .debug_str     0x00004a45      0x252 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
- .debug_str     0x00004a45      0xa76 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
- .debug_str     0x00004a45      0x21e CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_sync/lock_core.c.obj
- .debug_str     0x00004a45      0x7b1 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_sync/mutex.c.obj
- .debug_str     0x00004a45     0x11ae CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
- .debug_str     0x00004a45      0x9f9 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer/timer.c.obj
- .debug_str     0x00004a45      0xc08 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_uart/uart.c.obj
- .debug_str     0x00004a45      0x9a8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_str     0x00004a45      0x471 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_pll/pll.c.obj
- .debug_str     0x00004a45      0x2a0 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_ticks/ticks.c.obj
- .debug_str     0x00004a45      0x34e CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_str     0x00004a45      0x255 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_str     0x00004a45      0x2a5 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_str     0x00004a45      0x799 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
- .debug_str     0x00004a45      0x4ad CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
- .debug_str     0x00004a45       0x9d CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_str     0x00004a45       0xa0 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_divider/divider_hardware.S.obj
- .debug_str     0x00004a45       0xa2 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
- .debug_str     0x00004a45      0x2f4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
- .debug_str     0x00004a45       0xa8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
- .debug_str     0x00004a45       0xa6 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_str     0x00004a45       0xa0 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
- .debug_str     0x00004a45      0x2b9 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
- .debug_str     0x00004a45       0x9d CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_str     0x00004a45      0x44e CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
- .debug_str     0x00004a45      0x4e8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf/printf.c.obj
- .debug_str     0x00004a45       0x91 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_crt0/crt0.S.obj
- .debug_str     0x00004a45      0x733 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
- .debug_str     0x00004a45      0xd8e CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_str     0x00004a45      0xee7 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+.debug_str      0x00000000     0x4a4e
+ .debug_str     0x00000000     0x4a4e CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/Controle_GPIO_Teclado_Matricial_Subgrupo_3.c.obj
+                                0x8ef (size before relaxing)
+ .debug_str     0x00004a4e      0xc90 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_str     0x00004a4e      0x21b CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_platform_panic/panic.c.obj
+ .debug_str     0x00004a4e      0x39e CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/hardware_claim/claim.c.obj
+ .debug_str     0x00004a4e      0x347 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_str     0x00004a4e      0x25a CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
+ .debug_str     0x00004a4e      0xa7e CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_str     0x00004a4e      0x226 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_sync/lock_core.c.obj
+ .debug_str     0x00004a4e      0x7b9 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_sync/mutex.c.obj
+ .debug_str     0x00004a4e     0x11b6 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
+ .debug_str     0x00004a4e      0xa01 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_str     0x00004a4e      0xc10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_str     0x00004a4e      0x9b0 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_str     0x00004a4e      0x479 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_str     0x00004a4e      0x2a8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_ticks/ticks.c.obj
+ .debug_str     0x00004a4e      0x356 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_str     0x00004a4e      0x25d CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_str     0x00004a4e      0x2ad CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_str     0x00004a4e      0x7a1 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+ .debug_str     0x00004a4e      0x4b5 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
+ .debug_str     0x00004a4e       0xa5 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_str     0x00004a4e       0xa8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_divider/divider_hardware.S.obj
+ .debug_str     0x00004a4e       0xaa CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+ .debug_str     0x00004a4e      0x2fc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+ .debug_str     0x00004a4e       0xb0 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+ .debug_str     0x00004a4e       0xae CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_str     0x00004a4e       0xa8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+ .debug_str     0x00004a4e      0x2c1 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+ .debug_str     0x00004a4e       0xa5 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_str     0x00004a4e      0x456 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+ .debug_str     0x00004a4e      0x4f0 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf/printf.c.obj
+ .debug_str     0x00004a4e       0x99 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_crt0/crt0.S.obj
+ .debug_str     0x00004a4e      0x73b CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+ .debug_str     0x00004a4e      0xd96 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_str     0x00004a4e      0xeef CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 
-.debug_frame    0x00000000     0x1c68
- .debug_frame   0x00000000       0xc8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/Controle_GPIO_Teclado_Matricial_Subgrupo_3.c.obj
- .debug_frame   0x000000c8      0x330 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_frame   0x000003f8       0x44 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_platform_panic/panic.c.obj
- .debug_frame   0x0000043c       0xa0 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/hardware_claim/claim.c.obj
- .debug_frame   0x000004dc       0xa8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync/sync.c.obj
- .debug_frame   0x00000584       0x30 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
- .debug_frame   0x000005b4      0x1bc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
- .debug_frame   0x00000770       0x20 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_sync/lock_core.c.obj
- .debug_frame   0x00000790      0x1e0 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_sync/mutex.c.obj
- .debug_frame   0x00000970      0x2d0 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
- .debug_frame   0x00000c40      0x2c0 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer/timer.c.obj
- .debug_frame   0x00000f00       0xec CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_uart/uart.c.obj
- .debug_frame   0x00000fec      0x1f0 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_frame   0x000011dc       0x40 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_pll/pll.c.obj
- .debug_frame   0x0000121c       0x40 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_ticks/ticks.c.obj
- .debug_frame   0x0000125c       0xa0 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_frame   0x000012fc       0x40 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_frame   0x0000133c       0x70 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_frame   0x000013ac       0x84 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
- .debug_frame   0x00001430       0x2c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
- .debug_frame   0x0000145c       0x44 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
- .debug_frame   0x000014a0       0x40 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
- .debug_frame   0x000014e0      0x1ec CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf/printf.c.obj
- .debug_frame   0x000016cc      0x174 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
- .debug_frame   0x00001840      0x2a8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_frame   0x00001ae8      0x158 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .debug_frame   0x00001c40       0x28 C:/Users/guipe/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp\libg.a(libc_a-strlen-stub.o)
+.debug_frame    0x00000000     0x1c8c
+ .debug_frame   0x00000000       0xec CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/Controle_GPIO_Teclado_Matricial_Subgrupo_3.c.obj
+ .debug_frame   0x000000ec      0x330 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_frame   0x0000041c       0x44 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_platform_panic/panic.c.obj
+ .debug_frame   0x00000460       0xa0 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/hardware_claim/claim.c.obj
+ .debug_frame   0x00000500       0xa8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_frame   0x000005a8       0x30 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
+ .debug_frame   0x000005d8      0x1bc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_frame   0x00000794       0x20 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_sync/lock_core.c.obj
+ .debug_frame   0x000007b4      0x1e0 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_sync/mutex.c.obj
+ .debug_frame   0x00000994      0x2d0 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
+ .debug_frame   0x00000c64      0x2c0 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_frame   0x00000f24       0xec CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_frame   0x00001010      0x1f0 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_frame   0x00001200       0x40 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_frame   0x00001240       0x40 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_ticks/ticks.c.obj
+ .debug_frame   0x00001280       0xa0 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_frame   0x00001320       0x40 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_frame   0x00001360       0x70 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_frame   0x000013d0       0x84 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+ .debug_frame   0x00001454       0x2c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
+ .debug_frame   0x00001480       0x44 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+ .debug_frame   0x000014c4       0x40 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+ .debug_frame   0x00001504      0x1ec CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf/printf.c.obj
+ .debug_frame   0x000016f0      0x174 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+ .debug_frame   0x00001864      0x2a8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_frame   0x00001b0c      0x158 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+ .debug_frame   0x00001c64       0x28 C:/Users/guipe/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp\libg.a(libc_a-strlen-stub.o)
 
 .debug_line_str
-                0x00000000      0x356
+                0x00000000      0x35e
  .debug_line_str
-                0x00000000      0x356 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
-                                 0x8f (size before relaxing)
+                0x00000000      0x35e CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                                 0x97 (size before relaxing)
  .debug_line_str
-                0x00000356       0x92 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_divider/divider_hardware.S.obj
+                0x0000035e       0x9a CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_divider/divider_hardware.S.obj
  .debug_line_str
-                0x00000356       0x94 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+                0x0000035e       0x9c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
  .debug_line_str
-                0x00000356       0x9a CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+                0x0000035e       0xa2 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
  .debug_line_str
-                0x00000356       0x98 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+                0x0000035e       0xa0 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
  .debug_line_str
-                0x00000356       0x92 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+                0x0000035e       0x9a CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
  .debug_line_str
-                0x00000356       0x8f CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x0000035e       0x97 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
  .debug_line_str
-                0x00000356       0x83 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_crt0/crt0.S.obj
+                0x0000035e       0x8b CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/guipe/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_crt0/crt0.S.obj
  .debug_line_str
-                0x00000356       0xc9 C:/Users/guipe/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+                0x0000035e       0xc9 C:/Users/guipe/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
