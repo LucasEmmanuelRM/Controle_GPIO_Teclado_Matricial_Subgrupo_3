@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 // Padded and checksummed version of: C:/Workspace/Embarcatech/PROJETO GPIO COM TECLADO MATRICIAL/Controle_GPIO_Teclado_Matricial_Subgrupo_3/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.bin
+=======
+// Padded and checksummed version of: D:/Embarcatech/Repositorio - teclado/Controle_GPIO_Teclado_Matricial_Subgrupo_3/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.bin
+>>>>>>> main
 
 .cpu cortex-m0plus
 .thumb

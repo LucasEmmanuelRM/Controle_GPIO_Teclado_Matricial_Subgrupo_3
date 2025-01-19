@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Install script for directory: C:/Workspace/Embarcatech/PROJETO GPIO COM TECLADO MATRICIAL/Controle_GPIO_Teclado_Matricial_Subgrupo_3
+=======
+# Install script for directory: D:/Embarcatech/Repositorio - teclado/Controle_GPIO_Teclado_Matricial_Subgrupo_3
+>>>>>>> main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,12 +38,20 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
+<<<<<<< HEAD
   set(CMAKE_OBJDUMP "C:/Users/Windows 10/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-objdump.exe")
+=======
+  set(CMAKE_OBJDUMP "C:/Users/gabri/.pico-sdk/toolchain/13_3_Rel1/bin/arm-none-eabi-objdump.exe")
+>>>>>>> main
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
+<<<<<<< HEAD
   include("C:/Workspace/Embarcatech/PROJETO GPIO COM TECLADO MATRICIAL/Controle_GPIO_Teclado_Matricial_Subgrupo_3/build/pico-sdk/cmake_install.cmake")
+=======
+  include("D:/Embarcatech/Repositorio - teclado/Controle_GPIO_Teclado_Matricial_Subgrupo_3/build/pico-sdk/cmake_install.cmake")
+>>>>>>> main
 
 endif()
 
@@ -51,5 +63,9 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
+<<<<<<< HEAD
 file(WRITE "C:/Workspace/Embarcatech/PROJETO GPIO COM TECLADO MATRICIAL/Controle_GPIO_Teclado_Matricial_Subgrupo_3/build/${CMAKE_INSTALL_MANIFEST}"
+=======
+file(WRITE "D:/Embarcatech/Repositorio - teclado/Controle_GPIO_Teclado_Matricial_Subgrupo_3/build/${CMAKE_INSTALL_MANIFEST}"
+>>>>>>> main
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -21,6 +21,7 @@ Linker script and memory map
                 0x20041fcc                literals
 LOAD pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.obj
 START GROUP
+<<<<<<< HEAD
 LOAD C:/Users/WINDOW~1/PICO-S~1/TOOLCH~1/13_3_R~1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp\libgcc.a
 LOAD C:/Users/WINDOW~1/PICO-S~1/TOOLCH~1/13_3_R~1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp\libg.a
 LOAD C:/Users/WINDOW~1/PICO-S~1/TOOLCH~1/13_3_R~1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp\libc.a
@@ -29,6 +30,16 @@ START GROUP
 LOAD C:/Users/WINDOW~1/PICO-S~1/TOOLCH~1/13_3_R~1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp\libgcc.a
 LOAD C:/Users/WINDOW~1/PICO-S~1/TOOLCH~1/13_3_R~1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp\libc.a
 LOAD C:/Users/WINDOW~1/PICO-S~1/TOOLCH~1/13_3_R~1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp\libnosys.a
+=======
+LOAD C:/Users/gabri/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp\libgcc.a
+LOAD C:/Users/gabri/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp\libg.a
+LOAD C:/Users/gabri/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp\libc.a
+END GROUP
+START GROUP
+LOAD C:/Users/gabri/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp\libgcc.a
+LOAD C:/Users/gabri/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp\libc.a
+LOAD C:/Users/gabri/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp\libnosys.a
+>>>>>>> main
 END GROUP
 OUTPUT(pico-sdk\src\rp2040\boot_stage2\bs2_default.elf elf32-littlearm)
 LOAD linker stubs
@@ -69,9 +80,15 @@ LOAD linker stubs
  .debug_line    0x00000000       0xed pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.obj
 
 .debug_line_str
+<<<<<<< HEAD
                 0x00000000      0x149
  .debug_line_str
                 0x00000000      0x149 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.obj
+=======
+                0x00000000      0x128
+ .debug_line_str
+                0x00000000      0x128 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.obj
+>>>>>>> main
 
 .debug_info     0x00000000       0x25
  .debug_info    0x00000000       0x25 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.obj
@@ -83,5 +100,10 @@ LOAD linker stubs
  .debug_aranges
                 0x00000000       0x20 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.obj
 
+<<<<<<< HEAD
 .debug_str      0x00000000       0xca
  .debug_str     0x00000000       0xca pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.obj
+=======
+.debug_str      0x00000000       0xae
+ .debug_str     0x00000000       0xae pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.obj
+>>>>>>> main
