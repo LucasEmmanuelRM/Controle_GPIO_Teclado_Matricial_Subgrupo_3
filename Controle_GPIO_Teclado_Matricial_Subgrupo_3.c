@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include "pico/stdlib.h"
-#include "hardware/gpio.h"
 
 // Definição dos pinos do buzzer e dos LEDs
 #define buzzer 21
@@ -13,8 +12,8 @@
 #define column 4
 
 // Pinos GPIO dispostos segundo linhas e colunas de cima para baixo, esquerda para direita
-// Linha 1 = GPIO_8, Linha 2 = GPIO_7...
-// Coluna 1 = GPIO_4, Coluna 2 = GPIO_3...
+// Linha 1 = GPIO_4, Linha 2 = GPIO_8...
+// Coluna 1 = GPIO_17, Coluna 2 = GPIO_18...
 const uint rowPin[row] = {8, 7, 6, 5};
 const uint columnPin[column] = {4, 3, 2, 1};
 
@@ -34,84 +33,12 @@ void tocar_buzzer();
 void acionar_LED_verde();
 void acionar_LED_azul();
 void acionar_LED_vermelho();
-void desligar_leds_e_buzzer();
-
-void inicializar_pinos(){
-    // Inicializa os pinos GPIO das linhas
-    for (int i = 0; i < row; i++) {
-        gpio_init(rowPin[i]);
-        gpio_set_dir(rowPin[i], GPIO_OUT);
-        gpio_put(rowPin[i], 1); // Na inicialização, os pinos estarão em low
-    }
-
-    // Inicializa os pinos GPIO das colunas
-    for (int j = 0; j < column; j++) {
-        gpio_init(columnPin[j]);
-        gpio_set_dir(columnPin[j], GPIO_IN);
-        gpio_put(columnPin[j]); // Na inicialização, os pinos estarão em low
-    }
-
-    // Inicializa o buzzer
-    gpio_init(buzzer);
-    gpio_set_dir(buzzer, GPIO_OUT);
-    gpio_put(buzzer, 0);
-
-    // Inicializa o LED verde
-    gpio_init(LED_G);
-    gpio_set_dir(LED_G, GPIO_OUT);
-    gpio_put(LED_G, 0);
-
-    // Inicializa o LED azul
-    gpio_init(LED_B);
-    gpio_set_dir(LED_B, GPIO_OUT);
-    gpio_put(LED_B, 0);
-
-    // Inicializa o LED vermelho
-    gpio_init(LED_R);
-    gpio_set_dir(LED_R, GPIO_OUT);
-    gpio_put(LED_R, 0);
-}
 
 
-char ler_teclado_matricial() {
-    for (int i = 0; i < row; i++) {
-        gpio_put(rowPin[i], 0);  // Ativa a linha atual
-
-        for (int j = 0; j < column; j++) {
-            if (gpio_get(columnPin[j]) == 0) {  // Se o botão for pressionado
-                gpio_put(rowPin[i], 1);  // Desativa a linha
-                return TecladoMatricial[i][j];  // Retorna o caractere pressionado
-            }
-        }
-
-        gpio_put(rowPin[i], 1);  // Desativa a linha após a verificação
-    }
-
-    return '\0';  // Se nenhuma tecla for pressionada, retorna um caractere nulo
-}
-
-
-void tocar_buzzer() {
-    gpio_put(buzzer, 1);
-}
-
-void acionar_LED_verde(){
-    gpio_put(LED_G, 1);
-}
-
-
-void acionar_LED_azul(){
-    gpio_put(LED_B, 1);
-}
-
-
-void acionar_LED_vermelho(){
-    gpio_put(LED_R, 1);
-}
-
-int main(){
-
+int main()
+{
     printf("Controle de GPIO por um teclado matricial - Grupo 4 Subgrupo 3\n");
+    stdio_init_all();
     inicializar_pinos();
 
     printf("Sistema inicializado!\n");
@@ -119,14 +46,8 @@ int main(){
     "A - Aciona LEDs verde e azul\nB - Aciona LEDs azul e vermelho\nC - Aciona LEDs verde e vermelho\n"
     "D - Aciona todos os LEDs\n* - Aciona o Buzzer\n\n");
 
-    char ultima_tecla = 0;
-
     while (true) {
         char tecla = ler_teclado_matricial();
-
-        if(tecla && tecla != ultima_tecla){
-            printf("Tecla pressionada: %c\n", tecla);
-
         switch (tecla){
             case '1':
                 acionar_LED_verde();
@@ -166,15 +87,98 @@ int main(){
                 printf("Buzzer acionado\n");
                 break;
             default:
-                printf("Tecla sem atribuicao");
                 break;
         }
 
-        ultima_tecla = tecla;
+        sleep_ms(100);
     }
-        if (!tecla && ultima_tecla){
-            desligar_leds_e_buzzer();
-            ultima_tecla = 0;
+}
+
+
+void inicializar_pinos(){
+    // Inicializa os pinos GPIO das linhas
+    for (int i = 0; i < row; i++) {
+        gpio_init(rowPin[i]);
+        gpio_set_dir(rowPin[i], GPIO_OUT);
+        gpio_put(rowPin[i], 0); // Na inicialização, os pinos estarão em low
+    }
+
+    // Inicializa os pinos GPIO das colunas
+    for (int j = 0; j < column; j++) {
+    gpio_init(columnPin[j]);
+    gpio_set_dir(columnPin[j], GPIO_IN);
+    gpio_pull_up(columnPin[j]);  // Ativa pull-up
+    }
+
+    // Inicializa o buzzer
+    gpio_init(buzzer);
+    gpio_set_dir(buzzer, GPIO_OUT);
+    gpio_put(buzzer, 0);
+
+    // Inicializa o LED verde
+    gpio_init(LED_G);
+    gpio_set_dir(LED_G, GPIO_OUT);
+    gpio_put(LED_G, 0);
+
+    // Inicializa o LED azul
+    gpio_init(LED_B);
+    gpio_set_dir(LED_B, GPIO_OUT);
+    gpio_put(LED_B, 0);
+
+    // Inicializa o LED vermelho
+    gpio_init(LED_R);
+    gpio_set_dir(LED_R, GPIO_OUT);
+    gpio_put(LED_R, 0);
+}
+
+
+char ler_teclado_matricial() {
+    for (int i = 0; i < row; i++) {
+        gpio_put(rowPin[i], 0);  // Ativa a linha atual (nível baixo)
+
+        for (int j = 0; j < column; j++) {
+            // Verifica se o botão foi pressionado
+            if (!gpio_get(columnPin[j])) {  // Detecta nível baixo (tecla pressionada)
+                sleep_ms(50);  // Aguarda para debounce
+                if (!gpio_get(columnPin[j])) {  // Confirma a tecla pressionada
+                    while (!gpio_get(columnPin[j])) {
+                        // Aguarda a tecla ser solta
+                    }
+                    gpio_put(rowPin[i], 1);  // Desativa a linha
+                    return TecladoMatricial[i][j];  // Retorna o caractere pressionado
+                }
+            }
         }
+
+        gpio_put(rowPin[i], 1);  // Desativa a linha após a verificação
     }
+
+    return '\0';  // Retorna '\0' se nenhuma tecla for pressionada
+}
+
+
+void tocar_buzzer() {
+    gpio_put(buzzer, 1);
+    sleep_ms(1000);
+    gpio_put(buzzer, 0);
+}
+
+void acionar_LED_verde(){
+    gpio_put(LED_G, 1);
+    sleep_ms(1000);
+    gpio_put(LED_G, 0);
+}
+
+
+void acionar_LED_azul(){
+    gpio_put(LED_B, 1);
+    sleep_ms(1000);
+    gpio_put(LED_B, 0);
+}
+
+
+void acionar_LED_vermelho(){
+    gpio_put(LED_R, 1);
+    sleep_ms(1000);   
+    gpio_put(LED_R, 0); 
 }

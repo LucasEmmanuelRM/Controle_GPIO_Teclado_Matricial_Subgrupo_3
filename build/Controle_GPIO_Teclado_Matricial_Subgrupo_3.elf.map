@@ -2627,7 +2627,7 @@ LOAD C:/Users/Lucas/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/1
                 0x10000100                        __boot2_end__ = .
                 0x00000001                        ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
-.text           0x10000100     0x4ec4
+.text           0x10000100     0x4eb4
                 0x10000100                        __logical_binary_start = .
  *(.vectors)
  .vectors       0x10000100       0xd4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_crt0/crt0.S.obj
@@ -2696,557 +2696,557 @@ LOAD C:/Users/Lucas/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/1
                 0x100002d4       0x98 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/Controle_GPIO_Teclado_Matricial_Subgrupo_3.c.obj
                 0x100002d4                inicializar_pinos
  .text.ler_teclado_matricial
-                0x1000036c      0x2bc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/Controle_GPIO_Teclado_Matricial_Subgrupo_3.c.obj
+                0x1000036c      0x2ac CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/Controle_GPIO_Teclado_Matricial_Subgrupo_3.c.obj
                 0x1000036c                ler_teclado_matricial
  .text.startup.main
-                0x10000628      0x1d0 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/Controle_GPIO_Teclado_Matricial_Subgrupo_3.c.obj
-                0x10000628                main
+                0x10000618      0x1d0 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/Controle_GPIO_Teclado_Matricial_Subgrupo_3.c.obj
+                0x10000618                main
  .text.gpio_set_function
-                0x100007f8       0x34 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x100007f8                gpio_set_function
+                0x100007e8       0x34 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x100007e8                gpio_set_function
  .text.gpio_set_pulls
-                0x1000082c       0x28 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x1000082c                gpio_set_pulls
+                0x1000081c       0x28 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x1000081c                gpio_set_pulls
  .text.gpio_init
-                0x10000854       0x40 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x10000854                gpio_init
+                0x10000844       0x40 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x10000844                gpio_init
  .text.rp2040_chip_version
-                0x10000894        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2040/pico_platform/platform.c.obj
-                0x10000894                rp2040_chip_version
- .text.panic    0x100008a0       0x30 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_platform_panic/panic.c.obj
-                0x100008a0                panic
+                0x10000884        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2040/pico_platform/platform.c.obj
+                0x10000884                rp2040_chip_version
+ .text.panic    0x10000890       0x30 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_platform_panic/panic.c.obj
+                0x10000890                panic
  .text.hw_claim_or_assert
-                0x100008d0       0x44 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/hardware_claim/claim.c.obj
-                0x100008d0                hw_claim_or_assert
+                0x100008c0       0x44 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/hardware_claim/claim.c.obj
+                0x100008c0                hw_claim_or_assert
  .text.hw_claim_unused_from_range
-                0x10000914       0x9c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/hardware_claim/claim.c.obj
-                0x10000914                hw_claim_unused_from_range
+                0x10000904       0x9c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/hardware_claim/claim.c.obj
+                0x10000904                hw_claim_unused_from_range
  .text.next_striped_spin_lock_num
-                0x100009b0       0x18 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync/sync.c.obj
-                0x100009b0                next_striped_spin_lock_num
+                0x100009a0       0x18 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync/sync.c.obj
+                0x100009a0                next_striped_spin_lock_num
  .text.spin_lock_claim_unused
-                0x100009c8       0x24 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync/sync.c.obj
-                0x100009c8                spin_lock_claim_unused
+                0x100009b8       0x24 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync/sync.c.obj
+                0x100009b8                spin_lock_claim_unused
  .text.spin_locks_reset
-                0x100009ec       0x1c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
-                0x100009ec                spin_locks_reset
+                0x100009dc       0x1c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
+                0x100009dc                spin_locks_reset
  .text.runtime_init_per_core_irq_priorities
-                0x10000a08       0x24 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000a08                runtime_init_per_core_irq_priorities
+                0x100009f8       0x24 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
+                0x100009f8                runtime_init_per_core_irq_priorities
  .text.irq_set_enabled
-                0x10000a2c       0x24 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000a2c                irq_set_enabled
+                0x10000a1c       0x24 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000a1c                irq_set_enabled
  .text.irq_is_enabled
-                0x10000a50       0x18 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000a50                irq_is_enabled
+                0x10000a40       0x18 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000a40                irq_is_enabled
  .text.irq_set_pending
-                0x10000a68       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000a68                irq_set_pending
+                0x10000a58       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000a58                irq_set_pending
  .text.irq_has_shared_handler
-                0x10000a78       0x2c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000a78                irq_has_shared_handler
+                0x10000a68       0x2c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000a68                irq_has_shared_handler
  .text.irq_set_exclusive_handler
-                0x10000aa4       0x54 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000aa4                irq_set_exclusive_handler
+                0x10000a94       0x54 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000a94                irq_set_exclusive_handler
  .text.irq_add_shared_handler
-                0x10000af8      0x1f4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000af8                irq_add_shared_handler
+                0x10000ae8      0x1f4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000ae8                irq_add_shared_handler
  .text.irq_remove_handler
-                0x10000cec      0x1d4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000cec                irq_remove_handler
+                0x10000cdc      0x1d4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000cdc                irq_remove_handler
  .text.irq_add_tail_to_free_list
-                0x10000ec0       0xb4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000ec0                irq_add_tail_to_free_list
+                0x10000eb0       0xb4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000eb0                irq_add_tail_to_free_list
  .text.user_irq_claim_unused
-                0x10000f74       0x2c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000f74                user_irq_claim_unused
+                0x10000f64       0x2c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000f64                user_irq_claim_unused
  .text.lock_init
-                0x10000fa0       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/pico_sync/lock_core.c.obj
-                0x10000fa0                lock_init
+                0x10000f90       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/pico_sync/lock_core.c.obj
+                0x10000f90                lock_init
  .text.runtime_init_mutex
-                0x10000fb0       0x50 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/pico_sync/mutex.c.obj
-                0x10000fb0                runtime_init_mutex
+                0x10000fa0       0x50 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/pico_sync/mutex.c.obj
+                0x10000fa0                runtime_init_mutex
  .text.mutex_init
-                0x10001000       0x1c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/pico_sync/mutex.c.obj
-                0x10001000                mutex_init
+                0x10000ff0       0x1c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/pico_sync/mutex.c.obj
+                0x10000ff0                mutex_init
  .text.critical_section_init
-                0x1000101c       0x1c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/pico_sync/critical_section.c.obj
-                0x1000101c                critical_section_init
+                0x1000100c       0x1c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/pico_sync/critical_section.c.obj
+                0x1000100c                critical_section_init
  .text.critical_section_init_with_lock_num
-                0x10001038       0x14 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/pico_sync/critical_section.c.obj
-                0x10001038                critical_section_init_with_lock_num
+                0x10001028       0x14 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/pico_sync/critical_section.c.obj
+                0x10001028                critical_section_init_with_lock_num
  .text.sleep_until_callback
-                0x1000104c       0x30 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
+                0x1000103c       0x30 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
  .text.alarm_pool_irq_handler
-                0x1000107c      0x2fc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
+                0x1000106c      0x2fc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
  .text.runtime_init_default_alarm_pool
-                0x10001378       0xdc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
-                0x10001378                runtime_init_default_alarm_pool
+                0x10001368       0xdc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
+                0x10001368                runtime_init_default_alarm_pool
  .text.alarm_pool_get_default
-                0x10001454        0x8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
-                0x10001454                alarm_pool_get_default
+                0x10001444        0x8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
+                0x10001444                alarm_pool_get_default
  .text.alarm_pool_add_alarm_at
-                0x1000145c       0xd4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
-                0x1000145c                alarm_pool_add_alarm_at
+                0x1000144c       0xd4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
+                0x1000144c                alarm_pool_add_alarm_at
  .text.alarm_pool_add_alarm_at_force_in_context
-                0x10001530       0xb0 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
-                0x10001530                alarm_pool_add_alarm_at_force_in_context
+                0x10001520       0xb0 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
+                0x10001520                alarm_pool_add_alarm_at_force_in_context
  .text.alarm_pool_cancel_alarm
-                0x100015e0       0x74 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
-                0x100015e0                alarm_pool_cancel_alarm
+                0x100015d0       0x74 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
+                0x100015d0                alarm_pool_cancel_alarm
  .text.alarm_pool_core_num
-                0x10001654        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
-                0x10001654                alarm_pool_core_num
+                0x10001644        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
+                0x10001644                alarm_pool_core_num
  .text.sleep_until
-                0x10001658       0xd8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
-                0x10001658                sleep_until
+                0x10001648       0xd8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
+                0x10001648                sleep_until
  .text.sleep_ms
-                0x10001730       0x38 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
-                0x10001730                sleep_ms
+                0x10001720       0x38 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
+                0x10001720                sleep_ms
  .text.best_effort_wfe_or_timeout
-                0x10001768       0xe0 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
-                0x10001768                best_effort_wfe_or_timeout
+                0x10001758       0xe0 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
+                0x10001758                best_effort_wfe_or_timeout
  .text.timer_hardware_alarm_claim
-                0x10001848       0x14 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001848                timer_hardware_alarm_claim
+                0x10001838       0x14 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001838                timer_hardware_alarm_claim
  .text.timer_time_us_64
-                0x1000185c       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer/timer.c.obj
-                0x1000185c                timer_time_us_64
+                0x1000184c       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer/timer.c.obj
+                0x1000184c                timer_time_us_64
  .text.time_us_64
-                0x1000186c       0x14 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer/timer.c.obj
-                0x1000186c                time_us_64
+                0x1000185c       0x14 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer/timer.c.obj
+                0x1000185c                time_us_64
  .text.busy_wait_us
-                0x10001880       0x68 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001880                busy_wait_us
+                0x10001870       0x68 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001870                busy_wait_us
  .text.busy_wait_until
-                0x100018e8       0x20 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer/timer.c.obj
-                0x100018e8                busy_wait_until
+                0x100018d8       0x20 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer/timer.c.obj
+                0x100018d8                busy_wait_until
  .text.uart_init
-                0x10001908      0x120 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_uart/uart.c.obj
-                0x10001908                uart_init
+                0x100018f8      0x120 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_uart/uart.c.obj
+                0x100018f8                uart_init
  .text.clock_configure_int_divider
-                0x10001a28       0xf4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x10001a28                clock_configure_int_divider
+                0x10001a18       0xf4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x10001a18                clock_configure_int_divider
  .text.clock_configure_undivided
-                0x10001b1c       0xe8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x10001b1c                clock_configure_undivided
+                0x10001b0c       0xe8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x10001b0c                clock_configure_undivided
  .text.clock_get_hz
-                0x10001c04        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x10001c04                clock_get_hz
+                0x10001bf4        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x10001bf4                clock_get_hz
  .text.pll_init
-                0x10001c10       0xa4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_pll/pll.c.obj
-                0x10001c10                pll_init
+                0x10001c00       0xa4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_pll/pll.c.obj
+                0x10001c00                pll_init
  .text.watchdog_reboot
-                0x10001cb4       0x9c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x10001cb4                watchdog_reboot
+                0x10001ca4       0x9c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x10001ca4                watchdog_reboot
  .text.tick_start
-                0x10001d50       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_ticks/ticks.c.obj
-                0x10001d50                tick_start
+                0x10001d40       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_ticks/ticks.c.obj
+                0x10001d40                tick_start
  .text.rom_func_lookup
-                0x10001d60       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x10001d60                rom_func_lookup
+                0x10001d50       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10001d50                rom_func_lookup
  .text.rom_data_lookup
-                0x10001d70       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x10001d70                rom_data_lookup
+                0x10001d60       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10001d60                rom_data_lookup
  .text.rom_funcs_lookup
-                0x10001d80       0x44 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x10001d80                rom_funcs_lookup
+                0x10001d70       0x44 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10001d70                rom_funcs_lookup
  .text.rom_reset_usb_boot_extra
-                0x10001dc4       0x28 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x10001dc4                rom_reset_usb_boot_extra
+                0x10001db4       0x28 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10001db4                rom_reset_usb_boot_extra
  .text.xosc_init
-                0x10001dec       0x28 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_xosc/xosc.c.obj
-                0x10001dec                xosc_init
+                0x10001ddc       0x28 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x10001ddc                xosc_init
  .text.first_per_core_initializer
-                0x10001e14        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10001e04        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime/runtime.c.obj
  .text.hard_assertion_failure
-                0x10001e18        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10001e18                hard_assertion_failure
+                0x10001e08        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10001e08                hard_assertion_failure
  .text.runtime_run_initializers
-                0x10001e24       0x28 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10001e24                runtime_run_initializers
+                0x10001e14       0x28 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10001e14                runtime_run_initializers
  .text.runtime_init_early_resets
-                0x10001e4c       0x2c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x10001e4c                runtime_init_early_resets
+                0x10001e3c       0x2c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x10001e3c                runtime_init_early_resets
  .text.runtime_init_usb_power_down
-                0x10001e78       0x1c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x10001e78                runtime_init_usb_power_down
+                0x10001e68       0x1c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x10001e68                runtime_init_usb_power_down
  .text.runtime_init_post_clock_resets
-                0x10001e94       0x20 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x10001e94                runtime_init_post_clock_resets
+                0x10001e84       0x20 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x10001e84                runtime_init_post_clock_resets
  .text.runtime_init_rp2040_gpio_ie_disable
-                0x10001eb4       0x14 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x10001eb4                runtime_init_rp2040_gpio_ie_disable
+                0x10001ea4       0x14 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x10001ea4                runtime_init_rp2040_gpio_ie_disable
  .text.runtime_init_spin_locks_reset
-                0x10001ec8        0x8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x10001ec8                runtime_init_spin_locks_reset
+                0x10001eb8        0x8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x10001eb8                runtime_init_spin_locks_reset
  .text.runtime_init_install_ram_vector_table
-                0x10001ed0       0x1c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x10001ed0                runtime_init_install_ram_vector_table
+                0x10001ec0       0x1c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x10001ec0                runtime_init_install_ram_vector_table
  .text.runtime_init_clocks
-                0x10001eec       0xd8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
-                0x10001eec                runtime_init_clocks
- .text          0x10001fc4       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x10001edc       0xd8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
+                0x10001edc                runtime_init_clocks
+ .text          0x10001fb4       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .text.__wrap___aeabi_uidiv
-                0x10001fd4       0x4c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_divider/divider_hardware.S.obj
-                0x10001fd4                __wrap___aeabi_uidiv
-                0x10001fd4                __wrap___aeabi_uidivmod
-                0x10001fd4                div_u32u32
-                0x10001fd4                divmod_u32u32
-                0x10001fdc                divmod_u32u32_unsafe
-                0x10002004                divmod_u32u32_savestate
+                0x10001fc4       0x4c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_divider/divider_hardware.S.obj
+                0x10001fc4                __wrap___aeabi_uidiv
+                0x10001fc4                __wrap___aeabi_uidivmod
+                0x10001fc4                div_u32u32
+                0x10001fc4                divmod_u32u32
+                0x10001fcc                divmod_u32u32_unsafe
+                0x10001ff4                divmod_u32u32_savestate
  .text.missing_double_func_shim
-                0x10002020        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+                0x10002010        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
  .text.__aeabi_double_init
-                0x1000202c       0xa0 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
-                0x1000202c                __aeabi_double_init
+                0x1000201c       0xa0 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+                0x1000201c                __aeabi_double_init
  .text.double_table_shim_on_use_helper
-                0x100020cc       0x2c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
-                0x100020cc                double_table_shim_on_use_helper
+                0x100020bc       0x2c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+                0x100020bc                double_table_shim_on_use_helper
  .text.__aeabi_lmul
-                0x100020f8       0x32 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-                0x100020f8                __wrap___aeabi_lmul
- *fill*         0x1000212a        0x2 
+                0x100020e8       0x32 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+                0x100020e8                __wrap___aeabi_lmul
+ *fill*         0x1000211a        0x2 
  .text.missing_float_func_shim
-                0x1000212c        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+                0x1000211c        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
  .text.__aeabi_float_init
-                0x10002138       0x5c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
-                0x10002138                __aeabi_float_init
- .text          0x10002194       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x10002194                __aeabi_mem_init
- .text.memset   0x100021a4        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x100021a4                __wrap_memset
- .text.memcpy   0x100021b0        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x100021b0                __wrap_memcpy
-                0x100021b0                __wrap___aeabi_memcpy
+                0x10002128       0x5c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+                0x10002128                __aeabi_float_init
+ .text          0x10002184       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x10002184                __aeabi_mem_init
+ .text.memset   0x10002194        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x10002194                __wrap_memset
+ .text.memcpy   0x100021a0        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x100021a0                __wrap_memcpy
+                0x100021a0                __wrap___aeabi_memcpy
  .text._out_char
-                0x100021bc       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf/printf.c.obj
+                0x100021ac       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf/printf.c.obj
  .text.weak_raw_vprintf
-                0x100021cc       0x30 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf/printf.c.obj
-                0x100021cc                weak_raw_vprintf
- .text._exit    0x100021fc        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
-                0x100021fc                _exit
- .text.exit     0x10002200        0x8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
-                0x10002200                exit
+                0x100021bc       0x30 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf/printf.c.obj
+                0x100021bc                weak_raw_vprintf
+ .text._exit    0x100021ec        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+                0x100021ec                _exit
+ .text.exit     0x100021f0        0x8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+                0x100021f0                exit
  .text.runtime_init
-                0x10002208       0x2c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
-                0x10002208                runtime_init
+                0x100021f8       0x2c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+                0x100021f8                runtime_init
  .text.stdio_out_chars_no_crlf
-                0x10002234       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10002224       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_out_chars_crlf
-                0x10002244       0x94 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10002234       0x94 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_put_string
-                0x100022d8      0x100 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
-                0x100022d8                stdio_put_string
+                0x100022c8      0x100 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100022c8                stdio_put_string
  .text.stdio_set_driver_enabled
-                0x100023d8       0x30 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
-                0x100023d8                stdio_set_driver_enabled
+                0x100023c8       0x30 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100023c8                stdio_set_driver_enabled
  .text.stdio_init_all
-                0x10002408       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10002408                stdio_init_all
+                0x100023f8       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100023f8                stdio_init_all
  .text.__wrap_putchar
-                0x10002418       0x98 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10002418                __wrap_putchar
-                0x10002418                stdio_putchar
+                0x10002408       0x98 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10002408                __wrap_putchar
+                0x10002408                stdio_putchar
  .text.__wrap_puts
-                0x100024b0       0x3c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
-                0x100024b0                stdio_puts
-                0x100024b0                __wrap_puts
+                0x100024a0       0x3c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100024a0                stdio_puts
+                0x100024a0                __wrap_puts
  .text.stdio_uart_out_chars
-                0x100024ec       0x4c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x100024dc       0x4c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .text.stdio_uart_in_chars
-                0x10002538       0x90 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x10002538                stdio_uart_in_chars
+                0x10002528       0x90 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10002528                stdio_uart_in_chars
  .text.on_uart_rx
-                0x100025c8       0x28 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x100025b8       0x28 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .text.stdio_uart_out_flush
-                0x100025f0       0x14 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x100025e0       0x14 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .text.stdio_uart_set_chars_available_callback
-                0x10002604       0x84 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x100025f4       0x84 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .text.stdio_uart_init
-                0x10002688       0x50 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x10002688                stdio_uart_init
+                0x10002678       0x50 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10002678                stdio_uart_init
  .text.resetd_init
-                0x100026d8        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x100026c8        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_reset
-                0x100026dc        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x100026cc        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_open
-                0x100026e8       0x28 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x100026d8       0x28 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_xfer_cb
-                0x10002710        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x10002700        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_control_xfer_cb
-                0x10002714       0x5c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x10002704       0x5c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.tud_descriptor_bos_cb
-                0x10002770        0x8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-                0x10002770                tud_descriptor_bos_cb
+                0x10002760        0x8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x10002760                tud_descriptor_bos_cb
  .text.tud_vendor_control_xfer_cb
-                0x10002778       0x34 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-                0x10002778                tud_vendor_control_xfer_cb
+                0x10002768       0x34 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x10002768                tud_vendor_control_xfer_cb
  .text.usbd_app_driver_get_cb
-                0x100027ac        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-                0x100027ac                usbd_app_driver_get_cb
+                0x1000279c        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x1000279c                usbd_app_driver_get_cb
  .text.tud_cdc_line_coding_cb
-                0x100027b8       0x2c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-                0x100027b8                tud_cdc_line_coding_cb
+                0x100027a8       0x2c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x100027a8                tud_cdc_line_coding_cb
  .text.stdio_usb_set_chars_available_callback
-                0x100027e4       0x14 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x100027e4                stdio_usb_set_chars_available_callback
- .text.usb_irq  0x100027f8       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x100027d4       0x14 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x100027d4                stdio_usb_set_chars_available_callback
+ .text.usb_irq  0x100027e8       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.timer_task
-                0x10002808       0x64 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x100027f8       0x64 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.stdio_usb_in_chars
-                0x1000286c       0x90 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x1000286c                stdio_usb_in_chars
+                0x1000285c       0x90 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x1000285c                stdio_usb_in_chars
  .text.stdio_usb_out_flush
-                0x100028fc       0x50 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x100028ec       0x50 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.stdio_usb_out_chars
-                0x1000294c      0x104 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x1000293c      0x104 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.low_priority_worker_irq
-                0x10002a50       0xcc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10002a40       0xcc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.stdio_usb_init
-                0x10002b1c       0xe8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x10002b1c                stdio_usb_init
+                0x10002b0c       0xe8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10002b0c                stdio_usb_init
  .text.tud_descriptor_device_cb
-                0x10002c04        0x8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-                0x10002c04                tud_descriptor_device_cb
+                0x10002bf4        0x8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x10002bf4                tud_descriptor_device_cb
  .text.tud_descriptor_configuration_cb
-                0x10002c0c        0x8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-                0x10002c0c                tud_descriptor_configuration_cb
+                0x10002bfc        0x8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x10002bfc                tud_descriptor_configuration_cb
  .text.tud_descriptor_string_cb
-                0x10002c14       0x78 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-                0x10002c14                tud_descriptor_string_cb
+                0x10002c04       0x78 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x10002c04                tud_descriptor_string_cb
  .text.startup._retrieve_unique_id_on_boot
-                0x10002c8c       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x10002c7c       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_unique_id/unique_id.c.obj
  .text.pico_get_unique_board_id_string
-                0x10002c9c      0x1a8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_unique_id/unique_id.c.obj
-                0x10002c9c                pico_get_unique_board_id_string
+                0x10002c8c      0x1a8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x10002c8c                pico_get_unique_board_id_string
  .text.flash_get_unique_id
-                0x10002e44       0x3c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_flash/flash.c.obj
-                0x10002e44                flash_get_unique_id
+                0x10002e34       0x3c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_flash/flash.c.obj
+                0x10002e34                flash_get_unique_id
  .text.dcd_init
-                0x10002e80       0x8c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10002e80                dcd_init
+                0x10002e70       0x8c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10002e70                dcd_init
  .text.dcd_int_enable
-                0x10002f0c        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10002f0c                dcd_int_enable
+                0x10002efc        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10002efc                dcd_int_enable
  .text.dcd_set_address
-                0x10002f18       0x14 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10002f18                dcd_set_address
+                0x10002f08       0x14 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10002f08                dcd_set_address
  .text.dcd_sof_enable
-                0x10002f2c       0x1c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10002f2c                dcd_sof_enable
+                0x10002f1c       0x1c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10002f1c                dcd_sof_enable
  .text.dcd_edpt0_status_complete
-                0x10002f48       0x1c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10002f48                dcd_edpt0_status_complete
+                0x10002f38       0x1c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10002f38                dcd_edpt0_status_complete
  .text.dcd_edpt_open
-                0x10002f64      0x108 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10002f64                dcd_edpt_open
+                0x10002f54      0x108 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10002f54                dcd_edpt_open
  .text.dcd_edpt_close_all
-                0x1000306c        0x8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x1000306c                dcd_edpt_close_all
+                0x1000305c        0x8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x1000305c                dcd_edpt_close_all
  .text.dcd_edpt_xfer
-                0x10003074       0x24 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10003074                dcd_edpt_xfer
+                0x10003064       0x24 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10003064                dcd_edpt_xfer
  .text.dcd_edpt_stall
-                0x10003098       0x34 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x10003098                dcd_edpt_stall
+                0x10003088       0x34 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10003088                dcd_edpt_stall
  .text.dcd_edpt_clear_stall
-                0x100030cc       0x30 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x100030cc                dcd_edpt_clear_stall
+                0x100030bc       0x30 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x100030bc                dcd_edpt_clear_stall
  .text.rp2040_usb_init
-                0x100030fc       0x40 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x100030fc                rp2040_usb_init
+                0x100030ec       0x40 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x100030ec                rp2040_usb_init
  .text.hw_endpoint_xfer_start
-                0x1000313c       0x40 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x1000313c                hw_endpoint_xfer_start
+                0x1000312c       0x40 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x1000312c                hw_endpoint_xfer_start
  .text.tud_event_hook_cb
-                0x1000317c        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd.c.obj
-                0x1000317c                tud_event_hook_cb
+                0x1000316c        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd.c.obj
+                0x1000316c                tud_event_hook_cb
  .text.tud_sof_cb
-                0x10003180        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd.c.obj
-                0x10003180                tud_sof_cb
+                0x10003170        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd.c.obj
+                0x10003170                tud_sof_cb
  .text.tud_descriptor_device_qualifier_cb
-                0x10003184        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd.c.obj
-                0x10003184                tud_descriptor_device_qualifier_cb
+                0x10003174        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd.c.obj
+                0x10003174                tud_descriptor_device_qualifier_cb
  .text.tud_descriptor_other_speed_configuration_cb
-                0x10003188        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd.c.obj
-                0x10003188                tud_descriptor_other_speed_configuration_cb
+                0x10003178        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd.c.obj
+                0x10003178                tud_descriptor_other_speed_configuration_cb
  .text.tud_mount_cb
-                0x1000318c        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd.c.obj
-                0x1000318c                tud_mount_cb
+                0x1000317c        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd.c.obj
+                0x1000317c                tud_mount_cb
  .text.tud_umount_cb
-                0x10003190        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd.c.obj
-                0x10003190                tud_umount_cb
+                0x10003180        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd.c.obj
+                0x10003180                tud_umount_cb
  .text.tud_suspend_cb
-                0x10003194        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd.c.obj
-                0x10003194                tud_suspend_cb
+                0x10003184        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd.c.obj
+                0x10003184                tud_suspend_cb
  .text.tud_resume_cb
-                0x10003198        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd.c.obj
-                0x10003198                tud_resume_cb
+                0x10003188        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd.c.obj
+                0x10003188                tud_resume_cb
  .text.tud_mounted
-                0x1000319c       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd.c.obj
-                0x1000319c                tud_mounted
+                0x1000318c       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd.c.obj
+                0x1000318c                tud_mounted
  .text.tud_suspended
-                0x100031ac       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd.c.obj
-                0x100031ac                tud_suspended
+                0x1000319c       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd.c.obj
+                0x1000319c                tud_suspended
  .text.tud_init
-                0x100031bc       0xe4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd.c.obj
-                0x100031bc                tud_init
+                0x100031ac       0xe4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd.c.obj
+                0x100031ac                tud_init
  .text.tud_task_ext
-                0x100032a0      0x800 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd.c.obj
-                0x100032a0                tud_task_ext
+                0x10003290      0x800 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd.c.obj
+                0x10003290                tud_task_ext
  .text.usbd_open_edpt_pair
-                0x10003aa0       0x9c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd.c.obj
-                0x10003aa0                usbd_open_edpt_pair
+                0x10003a90       0x9c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd.c.obj
+                0x10003a90                usbd_open_edpt_pair
  .text.usbd_edpt_open
-                0x10003b3c       0x34 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd.c.obj
-                0x10003b3c                usbd_edpt_open
+                0x10003b2c       0x34 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd.c.obj
+                0x10003b2c                usbd_edpt_open
  .text.usbd_edpt_claim
-                0x10003b70       0x28 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd.c.obj
-                0x10003b70                usbd_edpt_claim
+                0x10003b60       0x28 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd.c.obj
+                0x10003b60                usbd_edpt_claim
  .text.usbd_edpt_release
-                0x10003b98       0x28 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd.c.obj
-                0x10003b98                usbd_edpt_release
+                0x10003b88       0x28 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd.c.obj
+                0x10003b88                usbd_edpt_release
  .text.usbd_edpt_xfer
-                0x10003bc0       0x4c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd.c.obj
-                0x10003bc0                usbd_edpt_xfer
+                0x10003bb0       0x4c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd.c.obj
+                0x10003bb0                usbd_edpt_xfer
  .text.tud_control_status
-                0x10003c0c       0x2c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd_control.c.obj
-                0x10003c0c                tud_control_status
+                0x10003bfc       0x2c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd_control.c.obj
+                0x10003bfc                tud_control_status
  .text.tud_control_xfer
-                0x10003c38       0xac CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd_control.c.obj
-                0x10003c38                tud_control_xfer
+                0x10003c28       0xac CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd_control.c.obj
+                0x10003c28                tud_control_xfer
  .text.usbd_control_reset
-                0x10003ce4       0x14 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd_control.c.obj
-                0x10003ce4                usbd_control_reset
+                0x10003cd4       0x14 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd_control.c.obj
+                0x10003cd4                usbd_control_reset
  .text.usbd_control_set_complete_callback
-                0x10003cf8        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd_control.c.obj
-                0x10003cf8                usbd_control_set_complete_callback
+                0x10003ce8        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd_control.c.obj
+                0x10003ce8                usbd_control_set_complete_callback
  .text.usbd_control_set_request
-                0x10003d04       0x1c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd_control.c.obj
-                0x10003d04                usbd_control_set_request
+                0x10003cf4       0x1c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd_control.c.obj
+                0x10003cf4                usbd_control_set_request
  .text.usbd_control_xfer_cb
-                0x10003d20       0xec CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd_control.c.obj
-                0x10003d20                usbd_control_xfer_cb
+                0x10003d10       0xec CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd_control.c.obj
+                0x10003d10                usbd_control_xfer_cb
  .text._prep_out_transaction.isra.0
-                0x10003e0c       0x5c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10003dfc       0x5c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj
  .text.tud_cdc_n_connected
-                0x10003e68       0x30 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10003e68                tud_cdc_n_connected
+                0x10003e58       0x30 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10003e58                tud_cdc_n_connected
  .text.tud_cdc_n_available
-                0x10003e98       0x18 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10003e98                tud_cdc_n_available
+                0x10003e88       0x18 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10003e88                tud_cdc_n_available
  .text.tud_cdc_n_read
-                0x10003eb0       0x98 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10003eb0                tud_cdc_n_read
+                0x10003ea0       0x98 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10003ea0                tud_cdc_n_read
  .text.tud_cdc_n_write_flush
-                0x10003f48       0x78 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10003f48                tud_cdc_n_write_flush
+                0x10003f38       0x78 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10003f38                tud_cdc_n_write_flush
  .text.tud_cdc_n_write
-                0x10003fc0       0x40 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10003fc0                tud_cdc_n_write
+                0x10003fb0       0x40 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10003fb0                tud_cdc_n_write
  .text.tud_cdc_n_write_available
-                0x10004000       0x18 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10004000                tud_cdc_n_write_available
+                0x10003ff0       0x18 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10003ff0                tud_cdc_n_write_available
  .text.cdcd_init
-                0x10004018       0x7c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10004018                cdcd_init
+                0x10004008       0x7c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10004008                cdcd_init
  .text.cdcd_deinit
-                0x10004094       0x34 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10004094                cdcd_deinit
+                0x10004084       0x34 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10004084                cdcd_deinit
  .text.cdcd_reset
-                0x100040c8       0x4c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x100040c8                cdcd_reset
+                0x100040b8       0x4c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x100040b8                cdcd_reset
  .text.cdcd_open
-                0x10004114       0xb0 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x10004114                cdcd_open
+                0x10004104       0xb0 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10004104                cdcd_open
  .text.cdcd_control_xfer_cb
-                0x100041c4       0xe4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x100041c4                cdcd_control_xfer_cb
+                0x100041b4       0xe4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x100041b4                cdcd_control_xfer_cb
  .text.cdcd_xfer_cb
-                0x100042a8      0x100 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x100042a8                cdcd_xfer_cb
+                0x10004298      0x100 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x10004298                cdcd_xfer_cb
  .text.vendord_init
-                0x100043a8       0x5c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/class/vendor/vendor_device.c.obj
-                0x100043a8                vendord_init
+                0x10004398       0x5c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+                0x10004398                vendord_init
  .text.vendord_deinit
-                0x10004404       0x1c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/class/vendor/vendor_device.c.obj
-                0x10004404                vendord_deinit
+                0x100043f4       0x1c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+                0x100043f4                vendord_deinit
  .text.vendord_reset
-                0x10004420       0x20 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/class/vendor/vendor_device.c.obj
-                0x10004420                vendord_reset
+                0x10004410       0x20 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+                0x10004410                vendord_reset
  .text.vendord_open
-                0x10004440      0x138 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/class/vendor/vendor_device.c.obj
-                0x10004440                vendord_open
+                0x10004430      0x138 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+                0x10004430                vendord_open
  .text.vendord_xfer_cb
-                0x10004578       0x9c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/class/vendor/vendor_device.c.obj
-                0x10004578                vendord_xfer_cb
+                0x10004568       0x9c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+                0x10004568                vendord_xfer_cb
  .text.tusb_init
-                0x10004614        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/tusb.c.obj
-                0x10004614                tusb_init
+                0x10004604        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/tusb.c.obj
+                0x10004604                tusb_init
  .text.tu_edpt_claim
-                0x10004620       0x50 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/tusb.c.obj
-                0x10004620                tu_edpt_claim
+                0x10004610       0x50 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/tusb.c.obj
+                0x10004610                tu_edpt_claim
  .text.tu_edpt_release
-                0x10004670       0x38 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/tusb.c.obj
-                0x10004670                tu_edpt_release
+                0x10004660       0x38 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/tusb.c.obj
+                0x10004660                tu_edpt_release
  .text.tu_edpt_validate
-                0x100046a8       0x7c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/tusb.c.obj
-                0x100046a8                tu_edpt_validate
+                0x10004698       0x7c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/tusb.c.obj
+                0x10004698                tu_edpt_validate
  .text.tu_edpt_bind_driver
-                0x10004724       0x34 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/tusb.c.obj
-                0x10004724                tu_edpt_bind_driver
+                0x10004714       0x34 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/tusb.c.obj
+                0x10004714                tu_edpt_bind_driver
  .text.tu_edpt_stream_init
-                0x10004758       0x6c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/tusb.c.obj
-                0x10004758                tu_edpt_stream_init
+                0x10004748       0x6c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/tusb.c.obj
+                0x10004748                tu_edpt_stream_init
  .text.tu_edpt_stream_deinit
-                0x100047c4        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/tusb.c.obj
-                0x100047c4                tu_edpt_stream_deinit
+                0x100047b4        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/tusb.c.obj
+                0x100047b4                tu_edpt_stream_deinit
  .text.tu_edpt_stream_write_zlp_if_needed
-                0x100047c8       0x68 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/tusb.c.obj
-                0x100047c8                tu_edpt_stream_write_zlp_if_needed
+                0x100047b8       0x68 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/tusb.c.obj
+                0x100047b8                tu_edpt_stream_write_zlp_if_needed
  .text.tu_edpt_stream_write_xfer
-                0x10004830       0x64 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/tusb.c.obj
-                0x10004830                tu_edpt_stream_write_xfer
+                0x10004820       0x64 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/tusb.c.obj
+                0x10004820                tu_edpt_stream_write_xfer
  .text.tu_edpt_stream_read_xfer
-                0x10004894       0xdc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/tusb.c.obj
-                0x10004894                tu_edpt_stream_read_xfer
+                0x10004884       0xdc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/tusb.c.obj
+                0x10004884                tu_edpt_stream_read_xfer
  .text.tu_fifo_config
-                0x10004970       0x6c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10004970                tu_fifo_config
+                0x10004960       0x6c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10004960                tu_fifo_config
  .text.tu_fifo_count
-                0x100049dc       0x2c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x100049dc                tu_fifo_count
+                0x100049cc       0x2c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x100049cc                tu_fifo_count
  .text.tu_fifo_empty
-                0x10004a08       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10004a08                tu_fifo_empty
+                0x100049f8       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x100049f8                tu_fifo_empty
  .text.tu_fifo_remaining
-                0x10004a18       0x2c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10004a18                tu_fifo_remaining
+                0x10004a08       0x2c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10004a08                tu_fifo_remaining
  .text.tu_fifo_read
-                0x10004a44       0x9c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10004a44                tu_fifo_read
+                0x10004a34       0x9c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10004a34                tu_fifo_read
  .text.tu_fifo_read_n
-                0x10004ae0       0xe8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10004ae0                tu_fifo_read_n
+                0x10004ad0       0xe8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10004ad0                tu_fifo_read_n
  .text.tu_fifo_write
-                0x10004bc8       0xa8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10004bc8                tu_fifo_write
+                0x10004bb8       0xa8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10004bb8                tu_fifo_write
  .text.tu_fifo_write_n
-                0x10004c70      0x178 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10004c70                tu_fifo_write_n
+                0x10004c60      0x178 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10004c60                tu_fifo_write_n
  .text.tu_fifo_clear
-                0x10004de8       0x40 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10004de8                tu_fifo_clear
+                0x10004dd8       0x40 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10004dd8                tu_fifo_clear
  .text.tu_fifo_set_overwritable
-                0x10004e28       0x48 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x10004e28                tu_fifo_set_overwritable
- .text.strlen   0x10004e70       0x5c C:/Users/Lucas/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp\libg.a(libc_a-strlen-stub.o)
-                0x10004e70                strlen
+                0x10004e18       0x48 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x10004e18                tu_fifo_set_overwritable
+ .text.strlen   0x10004e60       0x5c C:/Users/Lucas/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp\libg.a(libc_a-strlen-stub.o)
+                0x10004e60                strlen
  *(.fini)
- .fini          0x10004ecc        0x4 C:/Users/Lucas/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/crti.o
-                0x10004ecc                _fini
- .fini.__stub   0x10004ed0       0xb0 linker stubs
+ .fini          0x10004ebc        0x4 C:/Users/Lucas/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/crti.o
+                0x10004ebc                _fini
+ .fini.__stub   0x10004ec0       0xb0 linker stubs
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -3257,218 +3257,218 @@ LOAD C:/Users/Lucas/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/1
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
-                0x10004f80                        . = ALIGN (0x4)
-                0x10004f80                        PROVIDE (__preinit_array_start = .)
+                0x10004f70                        . = ALIGN (0x4)
+                0x10004f70                        PROVIDE (__preinit_array_start = .)
  *(SORT_BY_NAME(.preinit_array.*))
  .preinit_array.00100
-                0x10004f80        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x10004f80                __pre_init_runtime_init_early_resets
+                0x10004f70        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x10004f70                __pre_init_runtime_init_early_resets
  .preinit_array.00101
-                0x10004f84        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x10004f84                __pre_init_runtime_init_usb_power_down
+                0x10004f74        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x10004f74                __pre_init_runtime_init_usb_power_down
  .preinit_array.00275
-                0x10004f88        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x10004f78        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .preinit_array.00300
-                0x10004f8c        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x10004f7c        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
  .preinit_array.00350
-                0x10004f90        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+                0x10004f80        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
  .preinit_array.00350
-                0x10004f94        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+                0x10004f84        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
  .preinit_array.00500
-                0x10004f98        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x10004f98                __pre_init_runtime_init_clocks
+                0x10004f88        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x10004f88                __pre_init_runtime_init_clocks
  .preinit_array.00600
-                0x10004f9c        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x10004f9c                __pre_init_runtime_init_post_clock_resets
+                0x10004f8c        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x10004f8c                __pre_init_runtime_init_post_clock_resets
  .preinit_array.00700
-                0x10004fa0        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x10004fa0                __pre_init_runtime_init_rp2040_gpio_ie_disable
+                0x10004f90        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x10004f90                __pre_init_runtime_init_rp2040_gpio_ie_disable
  .preinit_array.01000
-                0x10004fa4        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x10004fa4                __pre_init_runtime_init_spin_locks_reset
+                0x10004f94        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x10004f94                __pre_init_runtime_init_spin_locks_reset
  .preinit_array.01100
-                0x10004fa8        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/pico_sync/mutex.c.obj
-                0x10004fa8                __pre_init_runtime_init_mutex
+                0x10004f98        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/pico_sync/mutex.c.obj
+                0x10004f98                __pre_init_runtime_init_mutex
  .preinit_array.10080
-                0x10004fac        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x10004fac                __pre_init_runtime_init_install_ram_vector_table
+                0x10004f9c        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x10004f9c                __pre_init_runtime_init_install_ram_vector_table
  .preinit_array.11000
-                0x10004fb0        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
-                0x10004fb0                __pre_init_runtime_init_default_alarm_pool
+                0x10004fa0        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
+                0x10004fa0                __pre_init_runtime_init_default_alarm_pool
  .preinit_array.YYYYY
-                0x10004fb4        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10004fb4                __pre_init_first_per_core_initializer
+                0x10004fa4        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10004fa4                __pre_init_first_per_core_initializer
  .preinit_array.ZZZZZ.01200
-                0x10004fb8        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
-                0x10004fb8                __pre_init_runtime_init_per_core_irq_priorities
+                0x10004fa8        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
+                0x10004fa8                __pre_init_runtime_init_per_core_irq_priorities
  *(.preinit_array)
-                0x10004fbc                        PROVIDE (__preinit_array_end = .)
-                0x10004fbc                        . = ALIGN (0x4)
-                0x10004fbc                        PROVIDE (__init_array_start = .)
+                0x10004fac                        PROVIDE (__preinit_array_end = .)
+                0x10004fac                        . = ALIGN (0x4)
+                0x10004fac                        PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array)
- .init_array    0x10004fbc        0x4 C:/Users/Lucas/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/crtbegin.o
- .init_array    0x10004fc0        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_unique_id/unique_id.c.obj
-                0x10004fc4                        PROVIDE (__init_array_end = .)
-                0x10004fc4                        . = ALIGN (0x4)
+ .init_array    0x10004fac        0x4 C:/Users/Lucas/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/crtbegin.o
+ .init_array    0x10004fb0        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x10004fb4                        PROVIDE (__init_array_end = .)
+                0x10004fb4                        . = ALIGN (0x4)
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array)
                 [!provide]                        PROVIDE (__fini_array_end = .)
  *(.eh_frame*)
- .eh_frame      0x10004fc4        0x0 C:/Users/Lucas/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/crtbegin.o
-                0x10004fc4                        . = ALIGN (0x4)
+ .eh_frame      0x10004fb4        0x0 C:/Users/Lucas/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x10004fb4                        . = ALIGN (0x4)
 
-.glue_7         0x10004fc4        0x0
- .glue_7        0x10004fc4        0x0 linker stubs
+.glue_7         0x10004fb4        0x0
+ .glue_7        0x10004fb4        0x0 linker stubs
 
-.glue_7t        0x10004fc4        0x0
- .glue_7t       0x10004fc4        0x0 linker stubs
+.glue_7t        0x10004fb4        0x0
+ .glue_7t       0x10004fb4        0x0 linker stubs
 
-.vfp11_veneer   0x10004fc4        0x0
- .vfp11_veneer  0x10004fc4        0x0 linker stubs
+.vfp11_veneer   0x10004fb4        0x0
+ .vfp11_veneer  0x10004fb4        0x0 linker stubs
 
-.v4_bx          0x10004fc4        0x0
- .v4_bx         0x10004fc4        0x0 linker stubs
+.v4_bx          0x10004fb4        0x0
+ .v4_bx         0x10004fb4        0x0 linker stubs
 
-.iplt           0x10004fc4        0x0
- .iplt          0x10004fc4        0x0 C:/Users/Lucas/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/crtbegin.o
+.iplt           0x10004fb4        0x0
+ .iplt          0x10004fb4        0x0 C:/Users/Lucas/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/crtbegin.o
 
-.rodata         0x10004fc4      0x738
+.rodata         0x10004fb4      0x738
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .rodata*)
  .rodata.main.str1.4
-                0x10004fc4      0x3bc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/Controle_GPIO_Teclado_Matricial_Subgrupo_3.c.obj
+                0x10004fb4      0x3bc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/Controle_GPIO_Teclado_Matricial_Subgrupo_3.c.obj
                                 0x200 (size before relaxing)
- .rodata.main   0x10005380       0x6c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/Controle_GPIO_Teclado_Matricial_Subgrupo_3.c.obj
+ .rodata.main   0x10005370       0x6c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/Controle_GPIO_Teclado_Matricial_Subgrupo_3.c.obj
  .rodata.TecladoMatricial
-                0x100053ec       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/Controle_GPIO_Teclado_Matricial_Subgrupo_3.c.obj
-                0x100053ec                TecladoMatricial
+                0x100053dc       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/Controle_GPIO_Teclado_Matricial_Subgrupo_3.c.obj
+                0x100053dc                TecladoMatricial
  .rodata.columnPin
-                0x100053fc       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/Controle_GPIO_Teclado_Matricial_Subgrupo_3.c.obj
-                0x100053fc                columnPin
+                0x100053ec       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/Controle_GPIO_Teclado_Matricial_Subgrupo_3.c.obj
+                0x100053ec                columnPin
  .rodata.rowPin
-                0x1000540c       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/Controle_GPIO_Teclado_Matricial_Subgrupo_3.c.obj
-                0x1000540c                rowPin
+                0x100053fc       0x10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/Controle_GPIO_Teclado_Matricial_Subgrupo_3.c.obj
+                0x100053fc                rowPin
  .rodata.panic.str1.4
-                0x1000541c       0x12 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_platform_panic/panic.c.obj
+                0x1000540c       0x12 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_platform_panic/panic.c.obj
  .rodata.spin_lock_claim_unused.str1.4
-                0x1000541c       0x1b CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync/sync.c.obj
+                0x1000540c       0x1b CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync/sync.c.obj
  .rodata.user_irq_claim_unused.str1.4
-                0x1000541c       0x1b CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
+                0x1000540c       0x1b CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
  .rodata.timer_hardware_alarm_claim.str1.4
-                0x1000541c       0x22 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer/timer.c.obj
+                0x1000540c       0x22 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer/timer.c.obj
  .rodata.hard_assertion_failure.str1.4
-                0x1000541c        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime/runtime.c.obj
+                0x1000540c        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime/runtime.c.obj
  .rodata.missing_double_func_shim.str1.4
-                0x1000541c       0x18 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+                0x1000540c       0x18 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
  .rodata.missing_float_func_shim.str1.4
-                0x1000541c        0x1 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+                0x1000540c        0x1 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
  .rodata.str1.4
-                0x1000541c       0x64 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x1000540c       0x64 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .rodata.__bi_84
-                0x1000541c        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x1000540c        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .rodata.__bi_78
-                0x10005428        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x10005418        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .rodata.__bi_60
-                0x10005434        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x10005424        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .rodata.__bi_54
-                0x10005440        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x10005430        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .rodata.__bi_48
-                0x1000544c        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x1000543c        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .rodata.__bi_42
-                0x10005458        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x10005448        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .rodata.__bi_34
-                0x10005464        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x10005454        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .rodata.__bi_26
-                0x10005470        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x10005460        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .rodata.crlf_str.0
-                0x1000547c        0x2 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
+                0x1000546c        0x2 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
  .rodata.str1.4
-                0x1000547e       0x2c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- *fill*         0x1000547e        0x2 
+                0x1000546e       0x2c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+ *fill*         0x1000546e        0x2 
  .rodata.__bi_45.4
-                0x10005480        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10005470        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .rodata.__bi_49.5
-                0x1000548c        0x8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x1000547c        0x8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .rodata.__bi_50.6
-                0x10005494        0x8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10005484        0x8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .rodata._resetd_driver
-                0x1000549c       0x20 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x1000548c       0x20 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .rodata.desc_ms_os_20
-                0x100054bc       0xa6 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
- *fill*         0x10005562        0x2 
+                0x100054ac       0xa6 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+ *fill*         0x10005552        0x2 
  .rodata.desc_bos
-                0x10005564       0x21 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-                0x10005564                desc_bos
+                0x10005554       0x21 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x10005554                desc_bos
  .rodata.str1.4
-                0x10005585       0x13 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
- *fill*         0x10005585        0x3 
+                0x10005575       0x13 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+ *fill*         0x10005575        0x3 
  .rodata.__bi_197.0
-                0x10005588        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x10005578        0xc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .rodata.str1.4
-                0x10005594       0x2a CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x10005584       0x2a CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .rodata.usbd_desc_str
-                0x10005594       0x18 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x10005584       0x18 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .rodata.usbd_desc_cfg
-                0x100055ac       0x54 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x1000559c       0x54 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .rodata.usbd_desc_device
-                0x10005600       0x12 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x100055f0       0x12 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .rodata.str1.4
-                0x10005612       0x14 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x10005602       0x14 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .rodata.str1.4
-                0x10005612       0x48 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- *fill*         0x10005612        0x2 
+                0x10005602       0x48 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ *fill*         0x10005602        0x2 
  .rodata.tud_task_ext
-                0x10005614       0x8c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd.c.obj
- .rodata        0x100056a0       0x1c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd.c.obj
+                0x10005604       0x8c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd.c.obj
+ .rodata        0x10005690       0x1c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd.c.obj
  .rodata._usbd_driver
-                0x100056bc       0x40 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd.c.obj
-                0x100056fc                        . = ALIGN (0x4)
+                0x100056ac       0x40 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd.c.obj
+                0x100056ec                        . = ALIGN (0x4)
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.flashdata*)))
-                0x100056fc                        . = ALIGN (0x4)
+                0x100056ec                        . = ALIGN (0x4)
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x100056fc                        __exidx_start = .
+                0x100056ec                        __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x100056fc                        __exidx_end = .
-                0x100056fc                        . = ALIGN (0x4)
-                0x100056fc                        __binary_info_start = .
+                0x100056ec                        __exidx_end = .
+                0x100056ec                        . = ALIGN (0x4)
+                0x100056ec                        __binary_info_start = .
 
-.binary_info    0x100056fc       0x30
+.binary_info    0x100056ec       0x30
  *(.binary_info.keep.*)
  .binary_info.keep.__bi_ptr84
-                0x100056fc        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x100056ec        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .binary_info.keep.__bi_ptr78
-                0x10005700        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x100056f0        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .binary_info.keep.__bi_ptr60
-                0x10005704        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x100056f4        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .binary_info.keep.__bi_ptr54
-                0x10005708        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x100056f8        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .binary_info.keep.__bi_ptr48
-                0x1000570c        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x100056fc        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .binary_info.keep.__bi_ptr42
-                0x10005710        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x10005700        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .binary_info.keep.__bi_ptr34
-                0x10005714        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x10005704        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .binary_info.keep.__bi_ptr26
-                0x10005718        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x10005708        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  *(.binary_info.*)
  .binary_info.__bi_ptr50
-                0x1000571c        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x1000570c        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .binary_info.__bi_ptr49
-                0x10005720        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10005710        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .binary_info.__bi_ptr45
-                0x10005724        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10005714        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .binary_info.__bi_ptr197
-                0x10005728        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x1000572c                        __binary_info_end = .
+                0x10005718        0x4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x1000571c                        __binary_info_end = .
 
-.rel.dyn        0x1000572c        0x0
- .rel.iplt      0x1000572c        0x0 C:/Users/Lucas/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/crtbegin.o
-                0x1000572c                        . = ALIGN (0x4)
+.rel.dyn        0x1000571c        0x0
+ .rel.iplt      0x1000571c        0x0 C:/Users/Lucas/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x1000571c                        . = ALIGN (0x4)
 
 .ram_vector_table
                 0x20000000       0xc0
@@ -3482,7 +3482,7 @@ LOAD C:/Users/Lucas/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/1
                 0x200000c0                        . = ALIGN (0x4)
  *(.uninitialized_data*)
 
-.data           0x200000c0      0xfb8 load address 0x1000572c
+.data           0x200000c0      0xfb8 load address 0x1000571c
                 0x200000c0                        __data_start__ = .
  *(vtable)
  *(.time_critical*)
@@ -3591,23 +3591,23 @@ LOAD C:/Users/Lucas/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/1
                 0x20001078                        . = ALIGN (0x4)
 
 .tm_clone_table
-                0x20001078        0x0 load address 0x100066e4
+                0x20001078        0x0 load address 0x100066d4
  .tm_clone_table
                 0x20001078        0x0 C:/Users/Lucas/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/crtbegin.o
  .tm_clone_table
                 0x20001078        0x0 C:/Users/Lucas/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/crtend.o
 
-.igot.plt       0x20001078        0x0 load address 0x100066e4
+.igot.plt       0x20001078        0x0 load address 0x100066d4
  .igot.plt      0x20001078        0x0 C:/Users/Lucas/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v6-m/nofp/crtbegin.o
 
-.tdata          0x20001078        0x0 load address 0x100066e4
+.tdata          0x20001078        0x0 load address 0x100066d4
                 0x20001078                        . = ALIGN (0x4)
  *(.tdata .tdata.* .gnu.linkonce.td.*)
                 0x20001078                        __tdata_end = .
                 0x20001078                        PROVIDE (__data_end__ = .)
-                0x1000572c                        __etext = LOADADDR (.data)
+                0x1000571c                        __etext = LOADADDR (.data)
 
-.tbss           0x20001078        0x0 load address 0x100066e4
+.tbss           0x20001078        0x0 load address 0x100066d4
                 0x20001078                        . = ALIGN (0x4)
                 0x20001078                        __bss_start__ = .
                 0x20001078                        __tls_base = .
@@ -3615,7 +3615,7 @@ LOAD C:/Users/Lucas/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/1
  *(.tcommon)
                 0x20001078                        __tls_end = .
 
-.bss            0x20001078     0x1088 load address 0x100066e4
+.bss            0x20001078     0x1088 load address 0x100066d4
                 0x20001078                        . = ALIGN (0x4)
                 0x20001078                        __tbss_end = .
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.bss*)))
@@ -3722,26 +3722,26 @@ LOAD C:/Users/Lucas/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/1
  *fill*         0x200020fe        0x2 
                 0x20002100                        __bss_end__ = .
 
-.heap           0x20002100      0x800 load address 0x100066e4
+.heap           0x20002100      0x800 load address 0x100066d4
                 0x20002100                        __end__ = .
                 0x20002100                        end = __end__
  *(.heap*)
  .heap          0x20002100      0x800 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_crt0/crt0.S.obj
                 0x20040000                        __HeapLimit = (ORIGIN (RAM) + LENGTH (RAM))
 
-.scratch_x      0x20040000        0x0 load address 0x100066e4
+.scratch_x      0x20040000        0x0 load address 0x100066d4
                 0x20040000                        __scratch_x_start__ = .
  *(.scratch_x.*)
                 0x20040000                        . = ALIGN (0x4)
                 0x20040000                        __scratch_x_end__ = .
-                0x100066e4                        __scratch_x_source__ = LOADADDR (.scratch_x)
+                0x100066d4                        __scratch_x_source__ = LOADADDR (.scratch_x)
 
-.scratch_y      0x20041000        0x0 load address 0x100066e4
+.scratch_y      0x20041000        0x0 load address 0x100066d4
                 0x20041000                        __scratch_y_start__ = .
  *(.scratch_y.*)
                 0x20041000                        . = ALIGN (0x4)
                 0x20041000                        __scratch_y_end__ = .
-                0x100066e4                        __scratch_y_source__ = LOADADDR (.scratch_y)
+                0x100066d4                        __scratch_y_source__ = LOADADDR (.scratch_y)
 
 .stack1_dummy
  *(.stack1*)
@@ -3750,9 +3750,9 @@ LOAD C:/Users/Lucas/.pico-sdk/toolchain/13_3_Rel1/bin/../lib/gcc/arm-none-eabi/1
  *(.stack*)
  .stack         0x20041000      0x800 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_crt0/crt0.S.obj
 
-.flash_end      0x100066e4        0x0
+.flash_end      0x100066d4        0x0
  *(.embedded_end_block*)
-                0x100066e4                        PROVIDE (__flash_binary_end = .)
+                0x100066d4                        PROVIDE (__flash_binary_end = .)
                 0x20040000                        __StackLimit = (ORIGIN (RAM) + LENGTH (RAM))
                 0x20041000                        __StackOneTop = (ORIGIN (SCRATCH_X) + LENGTH (SCRATCH_X))
                 0x20042000                        __StackTop = (ORIGIN (SCRATCH_Y) + LENGTH (SCRATCH_Y))
@@ -4140,89 +4140,89 @@ LOAD linker stubs
  .debug_abbrev  0x00008a3a      0x41f CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/common/tusb_fifo.c.obj
 
 .debug_loclists
-                0x00000000    0x1b436
+                0x00000000    0x1b430
  .debug_loclists
-                0x00000000      0xde0 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/Controle_GPIO_Teclado_Matricial_Subgrupo_3.c.obj
+                0x00000000      0xdda CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/Controle_GPIO_Teclado_Matricial_Subgrupo_3.c.obj
  .debug_loclists
-                0x00000de0     0x1a03 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x00000dda     0x1a03 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_gpio/gpio.c.obj
  .debug_loclists
-                0x000027e3       0x53 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2040/pico_platform/platform.c.obj
+                0x000027dd       0x53 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2040/pico_platform/platform.c.obj
  .debug_loclists
-                0x00002836      0x36e CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/hardware_claim/claim.c.obj
+                0x00002830      0x36e CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/hardware_claim/claim.c.obj
  .debug_loclists
-                0x00002ba4       0xf1 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync/sync.c.obj
+                0x00002b9e       0xf1 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync/sync.c.obj
  .debug_loclists
-                0x00002c95       0x7d CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
+                0x00002c8f       0x7d CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
  .debug_loclists
-                0x00002d12     0x116f CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
+                0x00002d0c     0x116f CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
  .debug_loclists
-                0x00003e81       0x41 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/pico_sync/lock_core.c.obj
+                0x00003e7b       0x41 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/pico_sync/lock_core.c.obj
  .debug_loclists
-                0x00003ec2      0xafa CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/pico_sync/mutex.c.obj
+                0x00003ebc      0xafa CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/pico_sync/mutex.c.obj
  .debug_loclists
-                0x000049bc       0xb6 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/pico_sync/critical_section.c.obj
+                0x000049b6       0xb6 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/pico_sync/critical_section.c.obj
  .debug_loclists
-                0x00004a72     0x24bd CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
+                0x00004a6c     0x24bd CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
  .debug_loclists
-                0x00006f2f     0x1a12 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer/timer.c.obj
+                0x00006f29     0x1a12 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer/timer.c.obj
  .debug_loclists
-                0x00008941      0xc90 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_uart/uart.c.obj
+                0x0000893b      0xc90 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_uart/uart.c.obj
  .debug_loclists
-                0x000095d1     0x28a5 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x000095cb     0x28a5 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_clocks/clocks.c.obj
  .debug_loclists
-                0x0000be76      0x1e0 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_pll/pll.c.obj
+                0x0000be70      0x1e0 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_pll/pll.c.obj
  .debug_loclists
-                0x0000c056      0x532 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x0000c050      0x532 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_watchdog/watchdog.c.obj
  .debug_loclists
-                0x0000c588       0x47 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_ticks/ticks.c.obj
+                0x0000c582       0x47 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_ticks/ticks.c.obj
  .debug_loclists
-                0x0000c5cf      0x38a CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x0000c5c9      0x38a CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bootrom/bootrom.c.obj
  .debug_loclists
-                0x0000c959       0x48 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x0000c953       0x48 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_xosc/xosc.c.obj
  .debug_loclists
-                0x0000c9a1       0x7e CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000c99b       0x7e CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime/runtime.c.obj
  .debug_loclists
-                0x0000ca1f       0xba CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x0000ca19       0xba CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
  .debug_loclists
-                0x0000cad9       0x74 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
+                0x0000cad3       0x74 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
  .debug_loclists
-                0x0000cb4d       0x35 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+                0x0000cb47       0x35 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
  .debug_loclists
-                0x0000cb82       0x4e CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+                0x0000cb7c       0x4e CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
  .debug_loclists
-                0x0000cbd0     0x2f65 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf/printf.c.obj
+                0x0000cbca     0x2f65 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf/printf.c.obj
  .debug_loclists
-                0x0000fb35      0x431 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+                0x0000fb2f      0x431 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
  .debug_loclists
-                0x0000ff66      0xeb2 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000ff60      0xeb2 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
  .debug_loclists
-                0x00010e18      0x754 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x00010e12      0x754 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .debug_loclists
-                0x0001156c      0x2d3 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x00011566      0x2d3 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .debug_loclists
-                0x0001183f      0x7cd CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x00011839      0x7cd CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .debug_loclists
-                0x0001200c       0xed CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x00012006       0xed CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .debug_loclists
-                0x000120f9      0x3d5 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x000120f3      0x3d5 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_unique_id/unique_id.c.obj
  .debug_loclists
-                0x000124ce      0x8c5 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_flash/flash.c.obj
+                0x000124c8      0x8c5 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_flash/flash.c.obj
  .debug_loclists
-                0x00012d93     0x1758 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x00012d8d     0x1758 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .debug_loclists
-                0x000144eb      0x734 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x000144e5      0x734 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
  .debug_loclists
-                0x00014c1f     0x21d8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd.c.obj
+                0x00014c19     0x21d8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd.c.obj
  .debug_loclists
-                0x00016df7      0x43b CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd_control.c.obj
+                0x00016df1      0x43b CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd_control.c.obj
  .debug_loclists
-                0x00017232      0xbfe CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0001722c      0xbfe CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj
  .debug_loclists
-                0x00017e30      0x76e CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+                0x00017e2a      0x76e CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/class/vendor/vendor_device.c.obj
  .debug_loclists
-                0x0001859e      0xe7c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/tusb.c.obj
+                0x00018598      0xe7c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/tusb.c.obj
  .debug_loclists
-                0x0001941a     0x201c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x00019414     0x201c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/common/tusb_fifo.c.obj
 
 .debug_aranges  0x00000000     0x1620
  .debug_aranges
@@ -4329,156 +4329,156 @@ LOAD linker stubs
                 0x00001570       0xb0 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/common/tusb_fifo.c.obj
 
 .debug_rnglists
-                0x00000000     0x4ae2
+                0x00000000     0x4ad5
  .debug_rnglists
-                0x00000000      0x4f5 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/Controle_GPIO_Teclado_Matricial_Subgrupo_3.c.obj
+                0x00000000      0x4e8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/Controle_GPIO_Teclado_Matricial_Subgrupo_3.c.obj
  .debug_rnglists
-                0x000004f5      0x5c7 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x000004e8      0x5c7 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_gpio/gpio.c.obj
  .debug_rnglists
-                0x00000abc       0x13 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2040/pico_platform/platform.c.obj
+                0x00000aaf       0x13 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2040/pico_platform/platform.c.obj
  .debug_rnglists
-                0x00000acf       0x19 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_platform_panic/panic.c.obj
+                0x00000ac2       0x19 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_platform_panic/panic.c.obj
  .debug_rnglists
-                0x00000ae8       0xc5 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/hardware_claim/claim.c.obj
+                0x00000adb       0xc5 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/hardware_claim/claim.c.obj
  .debug_rnglists
-                0x00000bad       0x67 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync/sync.c.obj
+                0x00000ba0       0x67 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync/sync.c.obj
  .debug_rnglists
-                0x00000c14       0x3d CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
+                0x00000c07       0x3d CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
  .debug_rnglists
-                0x00000c51      0x355 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
+                0x00000c44      0x355 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
  .debug_rnglists
-                0x00000fa6       0x1f CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/pico_sync/lock_core.c.obj
+                0x00000f99       0x1f CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/pico_sync/lock_core.c.obj
  .debug_rnglists
-                0x00000fc5      0x32c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/pico_sync/mutex.c.obj
+                0x00000fb8      0x32c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/pico_sync/mutex.c.obj
  .debug_rnglists
-                0x000012f1       0x2b CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/pico_sync/critical_section.c.obj
+                0x000012e4       0x2b CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/pico_sync/critical_section.c.obj
  .debug_rnglists
-                0x0000131c      0x77c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
+                0x0000130f      0x77c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
  .debug_rnglists
-                0x00001a98      0x2c6 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer/timer.c.obj
+                0x00001a8b      0x2c6 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer/timer.c.obj
  .debug_rnglists
-                0x00001d5e      0x259 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_uart/uart.c.obj
+                0x00001d51      0x259 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_uart/uart.c.obj
  .debug_rnglists
-                0x00001fb7      0x4ad CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x00001faa      0x4ad CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_clocks/clocks.c.obj
  .debug_rnglists
-                0x00002464       0x5c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_pll/pll.c.obj
+                0x00002457       0x5c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_pll/pll.c.obj
  .debug_rnglists
-                0x000024c0       0xdf CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x000024b3       0xdf CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_watchdog/watchdog.c.obj
  .debug_rnglists
-                0x0000259f       0x2b CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_ticks/ticks.c.obj
+                0x00002592       0x2b CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_ticks/ticks.c.obj
  .debug_rnglists
-                0x000025ca      0x10c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x000025bd      0x10c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bootrom/bootrom.c.obj
  .debug_rnglists
-                0x000026d6       0x2b CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x000026c9       0x2b CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_xosc/xosc.c.obj
  .debug_rnglists
-                0x00002701       0x3d CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime/runtime.c.obj
+                0x000026f4       0x3d CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime/runtime.c.obj
  .debug_rnglists
-                0x0000273e       0x49 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x00002731       0x49 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
  .debug_rnglists
-                0x00002787       0x20 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
+                0x0000277a       0x20 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
  .debug_rnglists
-                0x000027a7       0x43 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x0000279a       0x43 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .debug_rnglists
-                0x000027ea       0x2c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_divider/divider_hardware.S.obj
+                0x000027dd       0x2c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_divider/divider_hardware.S.obj
  .debug_rnglists
-                0x00002816       0xec CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+                0x00002809       0xec CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
  .debug_rnglists
-                0x00002902       0x1a CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+                0x000028f5       0x1a CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
  .debug_rnglists
-                0x0000291c       0xdf CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+                0x0000290f       0xdf CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
  .debug_rnglists
-                0x000029fb       0x19 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+                0x000029ee       0x19 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
  .debug_rnglists
-                0x00002a14       0x25 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x00002a07       0x25 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
  .debug_rnglists
-                0x00002a39      0x27c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf/printf.c.obj
+                0x00002a2c      0x27c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf/printf.c.obj
  .debug_rnglists
-                0x00002cb5       0x1b CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_crt0/crt0.S.obj
+                0x00002ca8       0x1b CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_crt0/crt0.S.obj
  .debug_rnglists
-                0x00002cd0       0x7f CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+                0x00002cc3       0x7f CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
  .debug_rnglists
-                0x00002d4f      0x297 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
+                0x00002d42      0x297 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
  .debug_rnglists
-                0x00002fe6      0x1ce CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x00002fd9      0x1ce CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .debug_rnglists
-                0x000031b4       0x43 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x000031a7       0x43 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .debug_rnglists
-                0x000031f7      0x13d CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x000031ea      0x13d CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .debug_rnglists
-                0x00003334       0x2b CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x00003327       0x2b CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .debug_rnglists
-                0x0000335f       0x70 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x00003352       0x70 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_unique_id/unique_id.c.obj
  .debug_rnglists
-                0x000033cf      0x297 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_flash/flash.c.obj
+                0x000033c2      0x297 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_flash/flash.c.obj
  .debug_rnglists
-                0x00003666      0x44a CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x00003659      0x44a CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .debug_rnglists
-                0x00003ab0       0xec CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x00003aa3       0xec CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
  .debug_rnglists
-                0x00003b9c      0x5f5 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd.c.obj
+                0x00003b8f      0x5f5 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd.c.obj
  .debug_rnglists
-                0x00004191       0x8e CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd_control.c.obj
+                0x00004184       0x8e CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd_control.c.obj
  .debug_rnglists
-                0x0000421f      0x1df CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x00004212      0x1df CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj
  .debug_rnglists
-                0x000043fe      0x12c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+                0x000043f1      0x12c CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/class/vendor/vendor_device.c.obj
  .debug_rnglists
-                0x0000452a      0x1d4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/tusb.c.obj
+                0x0000451d      0x1d4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/tusb.c.obj
  .debug_rnglists
-                0x000046fe      0x3e4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x000046f1      0x3e4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/common/tusb_fifo.c.obj
 
-.debug_line     0x00000000    0x2580c
- .debug_line    0x00000000     0x18b1 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/Controle_GPIO_Teclado_Matricial_Subgrupo_3.c.obj
- .debug_line    0x000018b1     0x1c97 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_line    0x00003548      0x262 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2040/pico_platform/platform.c.obj
- .debug_line    0x000037aa      0x28a CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_platform_panic/panic.c.obj
- .debug_line    0x00003a34      0x930 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/hardware_claim/claim.c.obj
- .debug_line    0x00004364      0x4d2 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync/sync.c.obj
- .debug_line    0x00004836      0x3ba CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
- .debug_line    0x00004bf0     0x1716 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
- .debug_line    0x00006306      0x2e5 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/pico_sync/lock_core.c.obj
- .debug_line    0x000065eb     0x1b28 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/pico_sync/mutex.c.obj
- .debug_line    0x00008113      0x419 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/pico_sync/critical_section.c.obj
- .debug_line    0x0000852c     0x3136 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
- .debug_line    0x0000b662     0x1d34 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer/timer.c.obj
- .debug_line    0x0000d396      0xfa9 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_uart/uart.c.obj
- .debug_line    0x0000e33f     0x1e10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_line    0x0001014f      0x500 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_pll/pll.c.obj
- .debug_line    0x0001064f      0x7b4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_line    0x00010e03      0x344 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_ticks/ticks.c.obj
- .debug_line    0x00011147      0x47b CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_line    0x000115c2      0x35d CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_line    0x0001191f      0x319 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_line    0x00011c38      0x542 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
- .debug_line    0x0001217a      0x567 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
- .debug_line    0x000126e1      0x107 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_line    0x000127e8      0x2a9 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_divider/divider_hardware.S.obj
- .debug_line    0x00012a91      0x3f3 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
- .debug_line    0x00012e84      0x568 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
- .debug_line    0x000133ec       0x5d CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
- .debug_line    0x00013449       0x61 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_line    0x000134aa      0x3a8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
- .debug_line    0x00013852      0x424 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
- .debug_line    0x00013c76       0x94 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_line    0x00013d0a      0x1f5 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
- .debug_line    0x00013eff     0x1b8f CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf/printf.c.obj
- .debug_line    0x00015a8e       0xa5 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_crt0/crt0.S.obj
- .debug_line    0x00015b33      0x870 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
- .debug_line    0x000163a3     0x154f CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_line    0x000178f2      0xe23 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .debug_line    0x00018715      0x527 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
- .debug_line    0x00018c3c     0x11cc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
- .debug_line    0x00019e08      0x3c1 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- .debug_line    0x0001a1c9      0x667 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_unique_id/unique_id.c.obj
- .debug_line    0x0001a830      0xb5a CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_flash/flash.c.obj
- .debug_line    0x0001b38a     0x2040 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- .debug_line    0x0001d3ca      0xcd1 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- .debug_line    0x0001e09b     0x2858 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd.c.obj
- .debug_line    0x000208f3      0x6e6 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd_control.c.obj
- .debug_line    0x00020fd9     0x113b CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj
- .debug_line    0x00022114      0xb08 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/class/vendor/vendor_device.c.obj
- .debug_line    0x00022c1c     0x1115 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/tusb.c.obj
- .debug_line    0x00023d31     0x1adb CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/common/tusb_fifo.c.obj
+.debug_line     0x00000000    0x2586a
+ .debug_line    0x00000000     0x190f CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/Controle_GPIO_Teclado_Matricial_Subgrupo_3.c.obj
+ .debug_line    0x0000190f     0x1c97 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_line    0x000035a6      0x262 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2040/pico_platform/platform.c.obj
+ .debug_line    0x00003808      0x28a CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_platform_panic/panic.c.obj
+ .debug_line    0x00003a92      0x930 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/hardware_claim/claim.c.obj
+ .debug_line    0x000043c2      0x4d2 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_line    0x00004894      0x3ba CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
+ .debug_line    0x00004c4e     0x1716 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_line    0x00006364      0x2e5 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/pico_sync/lock_core.c.obj
+ .debug_line    0x00006649     0x1b28 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/pico_sync/mutex.c.obj
+ .debug_line    0x00008171      0x419 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/pico_sync/critical_section.c.obj
+ .debug_line    0x0000858a     0x3136 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/common/pico_time/time.c.obj
+ .debug_line    0x0000b6c0     0x1d34 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_line    0x0000d3f4      0xfa9 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_line    0x0000e39d     0x1e10 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_line    0x000101ad      0x500 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_line    0x000106ad      0x7b4 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_line    0x00010e61      0x344 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_ticks/ticks.c.obj
+ .debug_line    0x000111a5      0x47b CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_line    0x00011620      0x35d CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_line    0x0001197d      0x319 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_line    0x00011c96      0x542 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+ .debug_line    0x000121d8      0x567 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
+ .debug_line    0x0001273f      0x107 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_line    0x00012846      0x2a9 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_divider/divider_hardware.S.obj
+ .debug_line    0x00012aef      0x3f3 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+ .debug_line    0x00012ee2      0x568 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+ .debug_line    0x0001344a       0x5d CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+ .debug_line    0x000134a7       0x61 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_line    0x00013508      0x3a8 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+ .debug_line    0x000138b0      0x424 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+ .debug_line    0x00013cd4       0x94 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_line    0x00013d68      0x1f5 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+ .debug_line    0x00013f5d     0x1b8f CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_printf/printf.c.obj
+ .debug_line    0x00015aec       0xa5 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_crt0/crt0.S.obj
+ .debug_line    0x00015b91      0x870 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+ .debug_line    0x00016401     0x154f CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_line    0x00017950      0xe23 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+ .debug_line    0x00018773      0x527 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+ .debug_line    0x00018c9a     0x11cc CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+ .debug_line    0x00019e66      0x3c1 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ .debug_line    0x0001a227      0x667 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/pico_unique_id/unique_id.c.obj
+ .debug_line    0x0001a88e      0xb5a CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/src/rp2_common/hardware_flash/flash.c.obj
+ .debug_line    0x0001b3e8     0x2040 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ .debug_line    0x0001d428      0xcd1 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ .debug_line    0x0001e0f9     0x2858 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd.c.obj
+ .debug_line    0x00020951      0x6e6 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/device/usbd_control.c.obj
+ .debug_line    0x00021037     0x113b CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+ .debug_line    0x00022172      0xb08 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+ .debug_line    0x00022c7a     0x1115 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/tusb.c.obj
+ .debug_line    0x00023d8f     0x1adb CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/C_/Users/Lucas/.pico-sdk/sdk/2.1.0/lib/tinyusb/src/common/tusb_fifo.c.obj
 
 .debug_str      0x00000000     0x8c14
  .debug_str     0x00000000     0x8c14 CMakeFiles/Controle_GPIO_Teclado_Matricial_Subgrupo_3.dir/Controle_GPIO_Teclado_Matricial_Subgrupo_3.c.obj
