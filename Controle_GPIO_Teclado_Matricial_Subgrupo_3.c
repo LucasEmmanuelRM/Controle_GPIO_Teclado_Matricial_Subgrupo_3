@@ -1,9 +1,8 @@
+#include <stdio.h>
 #include "pico/stdlib.h"
-#include "hardware/gpio.h"
-#include "hardware/pwm.h"
 
 // Definição dos pinos do buzzer e dos LEDs
-#define buzzer 10
+#define buzzer 21
 #define LED_G 11
 #define LED_B 12
 #define LED_R 13
@@ -15,8 +14,8 @@
 // Pinos GPIO dispostos segundo linhas e colunas de cima para baixo, esquerda para direita
 // Linha 1 = GPIO_4, Linha 2 = GPIO_8...
 // Coluna 1 = GPIO_17, Coluna 2 = GPIO_18...
-const uint rowPin[row] = {4, 8, 9, 16};
-const uint columnPin[column] = {17, 18, 19, 20};
+const uint rowPin[row] = {8, 7, 6, 5};
+const uint columnPin[column] = {4, 3, 2, 1};
 
 // Matriz representando os botões do teclado matricial
 // Exemplo: 'A' corresponde aos pinos 4 (Linha 1) e 20 (Coluna 4) sendo ligados
@@ -88,9 +87,10 @@ int main()
                 printf("Buzzer acionado\n");
                 break;
             default:
-                printf("Tecla sem atribuicao");
                 break;
         }
+
+        sleep_ms(100);
     }
 }
 
@@ -105,9 +105,9 @@ void inicializar_pinos(){
 
     // Inicializa os pinos GPIO das colunas
     for (int j = 0; j < column; j++) {
-        gpio_init(columnPin[j]);
-        gpio_set_dir(columnPin[j], GPIO_IN);
-        gpio_put(columnPin[j], 0); // Na inicialização, os pinos estarão em low
+    gpio_init(columnPin[j]);
+    gpio_set_dir(columnPin[j], GPIO_IN);
+    gpio_pull_up(columnPin[j]);  // Ativa pull-up
     }
 
     // Inicializa o buzzer
@@ -129,46 +129,38 @@ void inicializar_pinos(){
     gpio_init(LED_R);
     gpio_set_dir(LED_R, GPIO_OUT);
     gpio_put(LED_R, 0);
-
 }
 
 
 char ler_teclado_matricial() {
     for (int i = 0; i < row; i++) {
-        gpio_put(rowPin[i], 1);  // Ativa a linha atual
+        gpio_put(rowPin[i], 0);  // Ativa a linha atual (nível baixo)
 
         for (int j = 0; j < column; j++) {
-            if (gpio_get(columnPin[j]) == 1) {  // Se o botão for pressionado
-                while (gpio_get(columnPin[j]) == 1);  // Aguarda até a tecla ser liberada
-                gpio_put(rowPin[i], 0);  // Desativa a linha
-                return TecladoMatricial[i][j];  // Retorna o caractere pressionado
+            // Verifica se o botão foi pressionado
+            if (!gpio_get(columnPin[j])) {  // Detecta nível baixo (tecla pressionada)
+                sleep_ms(50);  // Aguarda para debounce
+                if (!gpio_get(columnPin[j])) {  // Confirma a tecla pressionada
+                    while (!gpio_get(columnPin[j])) {
+                        // Aguarda a tecla ser solta
+                    }
+                    gpio_put(rowPin[i], 1);  // Desativa a linha
+                    return TecladoMatricial[i][j];  // Retorna o caractere pressionado
+                }
             }
         }
 
-        gpio_put(rowPin[i], 0);  // Desativa a linha após a verificação
+        gpio_put(rowPin[i], 1);  // Desativa a linha após a verificação
     }
 
-    return '\0';  // Se nenhuma tecla for pressionada, retorna um caractere nulo
+    return '\0';  // Retorna '\0' se nenhuma tecla for pressionada
 }
 
 
 void tocar_buzzer() {
-        gpio_put(buzzer, true);
-        sleep_ms(1000);
-        gpio_put(buzzer, false);
-        gpio_set_function(pino_buzzer, GPIO_FUNC_PWM);
-    
-        uint slice_num = pwm_gpio_to_slice_num(pino_buzzer);
-        uint32_t clock_freq = 125000000;
-        uint16_t top = clock_freq / (2000 * 1) - 1;
-
-        pwm_set_wrap(slice_num, top);
-        pwm_set_chan_level(slice_num, PWM_CHAN_A, top / 2);
-        pwm_set_enabled(slice_num, true);
-
-        skeep ms(2000);
-
-        pwm_set_enabled(slice_num, false);
+    gpio_put(buzzer, 1);
+    sleep_ms(1000);
+    gpio_put(buzzer, 0);
 }
 
 void acionar_LED_verde(){
@@ -186,7 +178,7 @@ void acionar_LED_azul(){
 
 
 void acionar_LED_vermelho(){
-    gpio_put(LED_R, true);
+    gpio_put(LED_R, 1);
     sleep_ms(1000);   
-    gpio_put(LED_R, false); 
+    gpio_put(LED_R, 0); 
 }
