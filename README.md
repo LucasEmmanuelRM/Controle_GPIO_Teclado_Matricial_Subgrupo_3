@@ -15,4 +15,4 @@ A utilização do programa pode ser vista neste vídeo exemplo:
 
 Para utiliza-lo, basta realizar seu download, compilar e rodar o arquivo principal "Controle_GPIO_Teclado_Matricial_Subgrupo3". É possível de interagir com ele através do teclado matricial presente na simulação no Wokwi, presente no arquivo "diagram.json".
 
-O usuário pode acender os LEDs verde, azul e vermelho através das teclas 1, 2 e 3, respectivamente. As teclas A, B, C e D aciona duas ou mais teclas simultaneamente. A tecla * aciona o buzzer.
+O usuário pode acender os LEDs verde, azul e vermelho através das teclas 1, 2 e 3, respectivamente. As teclas A, B, C e D acionam duas ou mais teclas simultaneamente. A tecla * aciona o buzzer.
